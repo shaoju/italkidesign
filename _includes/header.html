@@ -1,25 +1,34 @@
-<header class="header" itemscope itemtype="http://schema.org/SiteNavigationElement" aria-label="Main navigation">
-  <div class="container">
-    <div class="header__inner">
-      <a class="header__logo" href="{{ '/' | relative_url }}">
-        <div class="header__logo--container">
-          {% include logo.svg %}
-        </div>
+<header class="site-header">
+
+  <div class="row">
+
+    <div class="column small-8 medium-3 large-3">
+      
+      <a href="{{ site.baseurl }}/">
+        <img class="italki-logo" src="/images/icons/logo.svg" alt="">
       </a>
-      <nav class="header__links">
-        <div class="container header__links-wrapper">
-          {% for item in site.navigation %}
-            <a class="header__link" href="{{ item.link | relative_url }}" itemprop="url">
-              <span itemprop="name">{{ item.name }}</span>
-            </a>
-          {% endfor %}
-        </div>
-      </nav>
-      <div class="header__toggle">
-        <span></span>
-        <span></span>
-        <span></span>
+    </div>
+
+    <label class="off-canvas-toggle"><span data-icon="ei-navicon" data-size="s"></span></label>
+
+    <div class="off-canvas-content">
+      <div class="column medium-9 large-9">
+        <nav class="site-header__navigation navigation">
+          <ul class="list-bare">
+            {% for page in site.pages %}
+              {% unless page.name == '404.md' %}
+                {% if page.title %}
+                  <li>
+                    <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+                  </li>
+                {% endif %}
+              {% endunless %}
+            {% endfor %}
+          </ul>
+        </nav>
       </div>
     </div>
+
   </div>
+
 </header>

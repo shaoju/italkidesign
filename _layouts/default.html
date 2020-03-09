@@ -1,48 +1,24 @@
----
-layout: compress
----
 <!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: "en-US" }}">
+<html lang="en">
 
-  {% include head.html %}
+{% include head.html %}
 
-  <body class="site">
+<body>
 
-    {% if site.google_tag_manager %}
+  {% include analytics.html %}
 
-      <!-- Google Tag Manager (noscript) -->
-      <noscript><iframe src="https://www.googletagmanager.com/ns.html?id={{ site.google_tag_manager }}"
-      height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-      <!-- End Google Tag Manager (noscript) -->
-
-    {% endif %}
-
+  <div class="off-canvas-container">
     {% include header.html %}
 
-    <div class="hero lazyload" data-bg="{{ site.url }}{{ site.baseurl }}/assets/img/{{ site.hero_img }}">
-      <div class="hero__wrap">
-        <h1 class="hero__title">{{ site.title | escape }}</h1>
-        <p class="hero__meta">{{ site.tagline }}</p>
-      </div>
-    </div>
-
-    <main class="site__content">
-      <section class="blog">
-        <div class="container">
-          <div class="post-list" itemscope="" itemtype="http://schema.org/Blog">
-
-            {% for post in site.posts %}
-              {% include card.html %}
-            {% endfor %}
-
-            <!-- {% include pagination.html %} -->
-          </div>
-        </div>
-      </section>
-    </main>
+    {{ content }}
 
     {% include footer.html %}
+  </div>
 
-  </body>
+  <script src="{{ '/js/jquery-2.1.4.min.js' | prepend: site.baseurl }}"></script>
+  <script src="{{ '/js/evil-icons.min.js' | prepend: site.baseurl }}"></script>
+  <script src="{{ '/js/jquery.fitvids.js' | prepend: site.baseurl }}"></script>
+  <script src="{{ '/js/script.js' | prepend: site.baseurl }}"></script>
+</body>
 
 </html>

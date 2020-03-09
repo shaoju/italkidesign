@@ -1,19 +1,23 @@
 ---
-layout: post # needs to be post
-title: Sketch to Figma # title of your post
-featured-img: sketch-to-figma #optional - if you want you can include hero image
+layout: post
+title: From Sketch to Figma
+featured: true
+author: junjie shao
+tags: [sketch, figma, tools]
+image: '/images/posts/sketch2figma/sketch2figma.jpg'
 ---
 
 
-# Sketch to Figma2
 
-We switched our design tool from Sketch to Figma in August, 2019. Looking back, there are a few thoughts that are worth sharing.
+>We switched our design tool from Sketch to Figma in August, 2019. Looking back, there are a few thoughts that are worth sharing.
+
+
 
 ## Sketch
 
 Sketch is by far the No.1 design tool in digital product design industry. I was one of the first group of people in the industry to try out Sketch. I started to use Sketch from version 2, and paid for the upgrade to version 3, paid again when they moved out of the Mac App Store, and then switched to their subscription model. 
 
-![sketch](/assets/img/posts/sketch2figma/0.png)
+![sketch](/images/posts/sketch2figma/0.png)
 
 I was a big fan of Sketch since the beginning and I acted almost like an evangelist to convince my fellow designer friends to made the switch from Adobe to Sketch.
 
@@ -21,7 +25,7 @@ I was a big fan of Sketch since the beginning and I acted almost like an evangel
 
 I knew Figma since 2016, their CTO and co-founder wrote a blog post introducing the "[Vector Networks](https://www.figma.com/blog/introducing-vector-networks/)", explaining how advanced their algorithm was compared with other existing tools (like Sketch). I wasn't really interested into it but still I decided to give it a try. 
 
-![figma](/assets/img/posts/sketch2figma/1.png)
+![figma](/images/posts/sketch2figma/1.png)
 
 And I was disappointed. 
 
@@ -35,7 +39,7 @@ The first impression wasn't great, for the following years, Figma was actively p
 
 It was at a very late stage until I realized, that the problem was in their sample file - which was using the pure black and white combination. Actually you can manually change the background yourself. 
 
-![figma sample](/assets/img/posts/sketch2figma/2.png)
+![figma sample](/images/posts/sketch2figma/2.png)
 
 Oh, did I even mention that they used the pure red as the accent color (on top of black)?
 
@@ -51,7 +55,7 @@ The real-time collaboration, the comments, the built-in handoff, the customized 
 
 It did take some efforts to get used to Figma's way of designing and organizing the artboards. I was also missing some handy functions and plugins which were only available in Sketch, but, THERE IS NO WAY BACK!
 
-![goodbye](/assets/img/posts/sketch2figma/3.png)
+![goodbye](/images/posts/sketch2figma/3.png)
 
 > Goodbye Sketch, we were in love for the past 7~8 years and we had a great time together, but sorry darling, it is time to say goodbye. There is nothing wrong about you, it is just that I've found my new soul mate.
 
@@ -59,7 +63,7 @@ It did take some efforts to get used to Figma's way of designing and organizing 
 
 When I joined italki, I had no intention to made the switch anytime soon. However, when I tried to understand how the team was organizing and sharing the design assets. I had a hard time to get the right assets. 
 
-![folder](/assets/img/posts/sketch2figma/4.png)
+![folder](/images/posts/sketch2figma/4.png)
 
 I mean, there is nothing wrong with the folder structure, it was actually organized super well. But still, you have to download different files to check whether it is the one you were looking for. The lack of thumbnails and previews, and all the downloading/syncing made the process super slow and difficult.
 
@@ -114,10 +118,10 @@ Not necessarily.
 
 We are seeing Sketch is chasing back after Figma now, by releasing the [team plan](https://www.sketch.com/for-teams/) as well as more cloud supports and live collaboration functions in the pipeline. 
 
-![sketch team](/assets/img/posts/sketch2figma/5.png)
+![sketch team](/images/posts/sketch2figma/5.png)
 
 On the other hand, another promising tool, [FramerX](https://www.framer.com/) is also raising up very quickly and taking up the market share. (By the way, it is much prettier than Figma!). The design tools and platforms are still in the middle of evolving and they are evolving really fast. Picking a right tool would help us get the job done in the right and faster way. Always keep an eye on what's happening and never miss the chance.
 
-![framer](/assets/img/posts/sketch2figma/6.png)
+![framer](/images/posts/sketch2figma/6.png)
 
 As an ending note, keep an eye on the [web version of Framer](https://www.framer.com/web/](https://www.framer.com/web/)) and see how it performs when it comes public, this might be our next move.

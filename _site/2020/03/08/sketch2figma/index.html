@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>From Sketch to Figma</title>
+  <meta name="description" content="  We switched our design tool from Sketch to Figma in August, 2019. Looking back, there are a few thoughts that are worth sharing.">
+  <link rel="canonical" href="/2020/03/08/sketch2figma/">
+  <link rel="alternate" type="application/rss+xml" title="italki Design" href="/feed.xml">
+
+  <script type="text/javascript">
+    // Fade effect
+    document.documentElement.className = ' fade-out';
+  </script>
+
+  <style>
+    
+    /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section,summary{display:block}audio,canvas,progress,video{display:inline-block;vertical-align:baseline}audio:not([controls]){display:none;height:0}[hidden],template{display:none}a{background-color:transparent}a:active,a:hover{outline:0}abbr[title]{border-bottom:1px dotted}b,strong{font-weight:bold}dfn{font-style:italic}h1{font-size:2em;margin:0.67em 0}mark{background:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sup{top:-0.5em}sub{bottom:-0.25em}img{border:0}svg:not(:root){overflow:hidden}figure{margin:1em 40px}hr{box-sizing:content-box;height:0}pre{overflow:auto}code,kbd,pre,samp{font-family:monospace, monospace;font-size:1em}button,input,optgroup,select,textarea{color:inherit;font:inherit;margin:0}button{overflow:visible}button,select{text-transform:none}button,html input[type="button"],input[type="reset"],input[type="submit"]{-webkit-appearance:button;cursor:pointer}button[disabled],html input[disabled]{cursor:default}button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}input{line-height:normal}input[type="checkbox"],input[type="radio"]{box-sizing:border-box;padding:0}input[type="number"]::-webkit-inner-spin-button,input[type="number"]::-webkit-outer-spin-button{height:auto}input[type="search"]{-webkit-appearance:textfield;box-sizing:content-box}input[type="search"]::-webkit-search-cancel-button,input[type="search"]::-webkit-search-decoration{-webkit-appearance:none}fieldset{border:1px solid #c0c0c0;margin:0 2px;padding:0.35em 0.625em 0.75em}legend{border:0;padding:0}textarea{overflow:auto}optgroup{font-weight:bold}table{border-collapse:collapse;border-spacing:0}td,th{padding:0}*,*:before,*:after{box-sizing:border-box}html{opacity:1;transition:1s opacity}html.fade-out{opacity:0;transition:none}@media only screen and (min-width: 64em){.wrapper{margin-top:64px}}.hero{color:white;height:70vh;margin-bottom:72px;background-image:linear-gradient(315deg, rgba(0,113,185,0.72), rgba(0,191,189,0.76)),url("/images/hero.jpg");background-position:center;background-repeat:no-repeat;background-size:cover;display:flex;flex-direction:column;align-items:center;justify-content:center;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Hiragino Sans GB","Microsoft YaHei","WenQuanYi Micro Hei",sans-serif}.hero-title{font-size:42px;font-weight:700;margin-bottom:24px;letter-spacing:.75px}.hero-description{font-size:18px;letter-spacing:1px}.off-canvas-container{display:flex;min-height:100vh;flex-direction:column}.off-canvas-container .wrapper{flex:1 0 auto}.icon{vertical-align:bottom}@font-face{font-family:'Born';src:url("/fonts/Born/Born.eot");src:url("/fonts/Born/Born.woff2") format("woff2"),url("/fonts/Born/Born.woff") format("woff"),url("/fonts/Born/Born.ttf") format("truetype"),url("/fonts/Born/Born.svg#Born") format("svg"),url("/fonts/Born/Born.eot?#iefix") format("embedded-opentype");font-weight:normal;font-style:normal}body{color:#222;font-size:19px;font-weight:300;font-family:Georgia,serif;line-height:32px;background-color:#fafafa;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}h1,h2,h3,h4,h5,h6{font-family:Georgia,serif;font-size:19px;font-weight:300;margin:0 0 25px;line-height:initial}@media only screen and (max-width: 40em){h1,h2,h3,h4,h5,h6{font-size:16px}}h1 a,h2 a,h3 a,h4 a,h5 a,h6 a{text-decoration:none}.post-content h1{font-size:32px}.post-content h2{font-size:28px}.post-content h3{font-size:26px}.post-content h4{font-size:22px}.post-content h5{font-size:19px}.post-content h1,.post-content h2,.post-content h3,.post-content h4,.post-content h5,.post-content h6{font-weight:700}.post-content p,.post-content ul,.post-content ol{margin-bottom:25px}.post-content li{margin:0 0 13px}p{margin:0 0 32px}p.font-medium{margin:0 0 25px}p.font-small{margin:0 0 22px}p.font-tiny{margin:0 0 19px}@media only screen and (max-width: 40em){p{margin:0 0 25px}}blockquote{margin:0;padding-left:22px;font-style:italic;border-left:3px solid #222}hr{border:0;height:1px;background-color:#ECF0F1;margin:0 0 32px}@media only screen and (max-width: 40em){hr{margin:0 0 25px}}ul,ol{margin:0 0 32px}ul ul,ul ol,ol ul,ol ol{margin:0}@media only screen and (max-width: 40em){ul,ol{margin:0 0 25px}}a{color:#222;transition:.4s}a:visited{color:#222}a:hover{color:#7E7E7E}a:active{color:#222}a.custom{text-decoration:none}.box{padding:25px;margin-bottom:25px;overflow:hidden;border:1px solid #ECF0F1}@media only screen and (min-width: 64em){.box{padding:32px;margin-bottom:32px}}.box--author{background-color:#FAFAFA}.box a{text-decoration:none}.page-header .box{background-color:#fff}.box__icon{float:left;width:32px;margin-right:10.66667px}.box__title{margin:0;font-weight:300;line-height:25px}@media only screen and (min-width: 40.063em){.box__body{overflow:hidden}}.box__text{margin-top:11px;margin-bottom:0;font-size:14px;line-height:22px}img,iframe{display:block}img{height:auto;max-width:100%}.post-content img,.post-content iframe,.post-content .fluid-width-video-wrapper,.post-content .twitter-tweet{margin-bottom:25px !important}@media only screen and (max-width: 40em){.post-content img,.post-content iframe,.post-content .fluid-width-video-wrapper,.post-content .twitter-tweet{margin-bottom:22px}}.post-content p img{margin-bottom:0}.CoverImage{max-height:420px;width:100vw;background-color:#ECF0F1;background-position:50%;background-repeat:no-repeat;background-size:cover}.post__tags{margin-bottom:28px;font-size:14px}.post__tags a{padding:3px 11px;margin:4px 8px 4px 0;display:inline-block;font-size:12px;line-height:22px;color:#222;background-color:#FAFAFA;border:1px solid #ECF0F1;text-decoration:none;transition:.4s}.post__tags a:hover{background-color:#ECF0F1}@media only screen and (max-width: 40em){.post__tags{margin-bottom:22px}}pre,code{font-family:Courier,monospace;font-size:16px;background-color:#FAFAFA}pre{overflow:auto;margin-top:0;margin-bottom:32px;padding:32px;font-size:16px;white-space:pre-wrap;word-wrap:break-word}@media only screen and (max-width: 40em){pre{margin-bottom:22px;padding:25px}}p code{padding:3px 6px}.row{margin:0 auto;max-width:1100px}@media only screen and (min-width: 40.063em){.row{padding-left:13px;padding-right:13px}}@media only screen and (min-width: 64em){.row{padding-left:16px;padding-right:16px}}.row:before,.row:after{display:table;clear:both;content:" "}.row .row{padding:0}@media only screen and (min-width: 40.063em){.row .row{margin-right:-13px;margin-left:-13px}}@media only screen and (min-width: 64em){.row .row{margin-right:-16px;margin-left:-16px}}.column{position:relative;float:left;padding-right:13px;padding-left:13px;width:100%}@media only screen and (min-width: 64em){.column{padding-right:16px;padding-left:16px}}.column--center{float:none;margin:0 auto}@media only screen{.small-1{width:8.33333%}.small-2{width:16.66667%}.small-3{width:25%}.small-4{width:33.33333%}.small-5{width:41.66667%}.small-6{width:50%}.small-7{width:58.33333%}.small-8{width:66.66667%}.small-9{width:75%}.small-10{width:83.33333%}.small-11{width:91.66667%}.small-12{width:100%}}@media only screen and (min-width: 40.063em){.medium-1{width:8.33333%}.medium-2{width:16.66667%}.medium-3{width:25%}.medium-4{width:33.33333%}.medium-5{width:41.66667%}.medium-6{width:50%}.medium-7{width:58.33333%}.medium-8{width:66.66667%}.medium-9{width:75%}.medium-10{width:83.33333%}.medium-11{width:91.66667%}.medium-12{width:100%}}@media only screen and (min-width: 64em){.large-1{width:8.33333%}.large-2{width:16.66667%}.large-3{width:25%}.large-4{width:33.33333%}.large-5{width:41.66667%}.large-6{width:50%}.large-7{width:58.33333%}.large-8{width:66.66667%}.large-9{width:75%}.large-10{width:83.33333%}.large-11{width:91.66667%}.large-12{width:100%}}input[type='text'],input[type='tel'],input[type='number'],input[type='email'],textarea{width:100%;max-width:100%;margin-bottom:0;display:inline-block;border:1px solid #222;margin-bottom:8px;padding:6px 11px;font-family:Georgia,serif;font-size:14px;line-height:25px;letter-spacing:1px;outline:none;background:transparent;appearance:none;border-radius:0;transition:.4s}@media only screen and (min-width: 64em){input[type='text'],input[type='tel'],input[type='number'],input[type='email'],textarea{padding:8px 16px}}input[type='text']:focus,input[type='tel']:focus,input[type='number']:focus,input[type='email']:focus,textarea:focus{border:1px solid #7E7E7E}.button{display:inline-block;text-align:center;padding:8px 16px;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Hiragino Sans GB","Microsoft YaHei","WenQuanYi Micro Hei",sans-serif;font-size:12px;line-height:25px;letter-spacing:1px;border:0;border-radius:0;text-decoration:none;color:#fff;background-color:#222;transition:.4s}.button:active,.button:focus,.button:hover{color:#fff;background-color:#7E7E7E}.button--expand{width:100%}@-webkit-keyframes spin{100%{-webkit-transform:rotate(360deg);transform:rotate(360deg)}}@keyframes spin{100%{-webkit-transform:rotate(360deg);transform:rotate(360deg)}}.icon{position:relative;display:inline-block;width:25px;height:25px;overflow:hidden;fill:currentColor}.icon__cnt{width:100%;height:100%;background:inherit;fill:inherit;pointer-events:none;transform:translateX(0);-ms-transform:translate(0.5px, -0.3px)}.icon--m{width:50px;height:50px}.icon--l{width:100px;height:100px}.icon--xl{width:150px;height:150px}.icon--xxl{width:200px;height:200px}.icon__spinner{position:absolute;top:0;left:0;width:100%;height:100%}.icon--ei-spinner .icon__spinner,.icon--ei-spinner-2 .icon__spinner{-webkit-animation:spin 1s steps(12) infinite;animation:spin 1s steps(12) infinite}.icon--ei-spinner-3 .icon__spinner{-webkit-animation:spin 1.5s linear infinite;animation:spin 1.5s linear infinite}.icon--ei-sc-facebook{fill:#3b5998}.icon--ei-sc-github{fill:#333}.icon--ei-sc-google-plus{fill:#dd4b39}.icon--ei-sc-instagram{fill:#3f729b}.icon--ei-sc-linkedin{fill:#0976b4}.icon--ei-sc-odnoklassniki{fill:#ed812b}.icon--ei-sc-skype{fill:#00aff0}.icon--ei-sc-soundcloud{fill:#f80}.icon--ei-sc-tumblr{fill:#35465c}.icon--ei-sc-twitter{fill:#55acee}.icon--ei-sc-vimeo{fill:#1ab7ea}.icon--ei-sc-vk{fill:#45668e}.icon--ei-sc-youtube{fill:#e52d27}.icon--ei-sc-pinterest{fill:#bd081c}.icon--ei-sc-telegram{fill:#0088cc}.post-card{margin-bottom:25px;box-shadow:0px 2px 12px rgba(0,40,117,0.06);border-radius:4px;overflow:hidden;background:#fff}.post-card__header{margin-bottom:16px}.post-card__image{transition:.4s;height:200px}.post-card__info{padding:25px;text-align:center;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Hiragino Sans GB","Microsoft YaHei","WenQuanYi Micro Hei",sans-serif}.post-card__title{line-height:25px;margin-bottom:0}.post-card__title a{display:inline;border-bottom:none;transition:.4s;background-image:linear-gradient(180deg, transparent 65%, rgba(0,191,188,0.253) 0);background-size:0 100%;background-repeat:no-repeat;transition:background-size .5s ease}.post-card__title a:hover{color:#222;background-size:100% 100%}.post-card__meta{margin-bottom:8px;font-size:12px;line-height:22px;color:#7E7E7E}.post-card__meta a{color:#7E7E7E;text-decoration:none}.post-card:hover .post-card__image{opacity:0.9}.post-card:hover .post-card__title a{background-size:100% 100%}.post-card--featured__icon{position:absolute;bottom:8px;left:8px;fill:#fff}@media only screen and (min-width: 64em){.post-card{margin-bottom:32px}}.post-list{display:flex;flex-wrap:wrap;display:-webkit-flex;-webkit-flex-wrap:wrap}.post-list .post-card-wrap{display:flex;display:-webkit-flex}.post-list .post-card{width:100%}.share-list{display:flex;display:-webkit-box;display:-ms-flexbox;padding:0;border:1px solid #ECF0F1;margin-bottom:28px;line-height:22px;list-style:none}.share-list li{flex:1;-ms-flex:1;-webkit-box-flex:1;text-align:center;margin:0;border-right:1px solid #ECF0F1}.share-list li:last-child{border-right:0}.share-list__link{display:block;padding:6px;font-size:14px;transition:.4s}.share-list__link:hover{background-color:#FAFAFA}.share-list__link:hover .share-list__icon--twitter{fill:#55acee}.share-list__link:hover .share-list__icon--facebook{fill:#3b5998}.share-list__icon{fill:#7E7E7E;width:22px;height:22px}@media only screen and (max-width: 40em){.share-list{margin-bottom:25px}}.FlexEmbed{display:block;overflow:hidden;position:relative}.FlexEmbed:before{content:"";display:block;width:100%}.FlexEmbed--3by1:before{padding-bottom:33.33333%}.FlexEmbed--2by1:before{padding-bottom:50%}.FlexEmbed--16by9:before{padding-bottom:56.25%}.FlexEmbed--4by3:before{padding-bottom:75%}.CoverImage{max-height:600px;max-width:100%;background-position:50%;background-repeat:no-repeat;background-size:cover}.highlight{margin:0;background:#fff}.highlighter-rouge .highlight{background:#FAFAFA}.highlight .c{color:#998;font-style:italic}.highlight .err{color:#a61717;background-color:#e3d2d2}.highlight .k{font-weight:bold}.highlight .o{font-weight:bold}.highlight .cm{color:#998;font-style:italic}.highlight .cp{color:#999;font-weight:bold}.highlight .c1{color:#998;font-style:italic}.highlight .cs{color:#999;font-weight:bold;font-style:italic}.highlight .gd{color:#000;background-color:#fdd}.highlight .gd .x{color:#000;background-color:#faa}.highlight .ge{font-style:italic}.highlight .gr{color:#a00}.highlight .gh{color:#999}.highlight .gi{color:#000;background-color:#dfd}.highlight .gi .x{color:#000;background-color:#afa}.highlight .go{color:#888}.highlight .gp{color:#555}.highlight .gs{font-weight:bold}.highlight .gu{color:#aaa}.highlight .gt{color:#a00}.highlight .kc{font-weight:bold}.highlight .kd{font-weight:bold}.highlight .kp{font-weight:bold}.highlight .kr{font-weight:bold}.highlight .kt{color:#458;font-weight:bold}.highlight .m{color:#099}.highlight .s{color:#d14}.highlight .na{color:teal}.highlight .nb{color:#0086B3}.highlight .nc{color:#458;font-weight:bold}.highlight .no{color:teal}.highlight .ni{color:purple}.highlight .ne{color:#900;font-weight:bold}.highlight .nf{color:#900;font-weight:bold}.highlight .nn{color:#555}.highlight .nt{color:navy}.highlight .nv{color:teal}.highlight .ow{font-weight:bold}.highlight .w{color:#bbb}.highlight .mf{color:#099}.highlight .mh{color:#099}.highlight .mi{color:#099}.highlight .mo{color:#099}.highlight .sb{color:#d14}.highlight .sc{color:#d14}.highlight .sd{color:#d14}.highlight .s2{color:#d14}.highlight .se{color:#d14}.highlight .sh{color:#d14}.highlight .si{color:#d14}.highlight .sx{color:#d14}.highlight .sr{color:#009926}.highlight .s1{color:#d14}.highlight .ss{color:#990073}.highlight .bp{color:#999}.highlight .vc{color:teal}.highlight .vg{color:teal}.highlight .vi{color:teal}.highlight .il{color:#099}.navigation{text-align:center}.navigation li{display:inline-block;margin-right:16px;font-size:16px;line-height:32px}@media only screen and (max-width: 40em){.navigation li{display:block;margin-right:0}}.navigation li:last-child{margin-right:0}.navigation a{transition:.4s;text-decoration:none;background-image:linear-gradient(180deg, transparent 65%, rgba(0,191,188,0.253) 0);background-size:0 100%;background-repeat:no-repeat;transition:background-size .5s ease}@media only screen and (max-width: 40em){.navigation a{display:block;padding-top:8px;padding-bottom:8px;border-bottom:1px solid #ECF0F1}}.navigation a:hover{color:#222;background-size:100% 100%}@media only screen and (min-width: 40.063em){.site-header__navigation{text-align:right}}.pagination{clear:both;font-size:12px;line-height:25px}.pagination span{position:relative}.pagination .icon{position:relative}.pagination .newer-posts{float:left;text-align:left}.pagination .newer-posts span,.pagination .newer-posts .icon{left:-8.33333px}.pagination .older-posts{float:right;text-align:right}.pagination .older-posts span,.pagination .older-posts .icon{right:-8.33333px}.pagination a{text-decoration:none;text-transform:uppercase;letter-spacing:.2em;transition:.4s}.post-navigation{flex-grow:1}.post-navigation:before{position:absolute;z-index:1;content:"";top:16px;padding:0 16px;font-size:14px;color:#7E7E7E;background-color:rgba(255,255,255,0.9);transition:.4s}.post-navigation.prev:before{left:32px;content:"Previous Story"}.post-navigation.next:before{right:32px;content:"Next Story"}.post-navigation:hover:before{background-color:#fff}.logo{display:block;margin-bottom:0;line-height:32px}@media only screen and (max-width: 40em){.logo{line-height:25px}}.logo a{transition:.4s;text-decoration:none;letter-spacing:1px}.logo a:hover{color:#7E7E7E}.logo__img{max-height:32px;vertical-align:middle}.italki-logo{width:56px}.site-header{position:relative;padding:13px 0;border-bottom:1px solid #ECF0F1;line-height:25px;background-color:#fff}@media only screen and (min-width: 64em){.site-header{position:fixed;z-index:100;width:100%}}@media only screen and (min-width: 64em){.site-header{padding:16px 0}}.off-canvas-toggle{display:none}@media only screen and (max-width: 40em){.off-canvas-toggle{float:right;display:block;position:absolute;top:50%;right:10px;-webkit-transform:translateY(-50%);transform:translateY(-50%);font-size:14px;cursor:pointer}}@media only screen and (max-width: 40em){html,body{overflow-x:hidden}.off-canvas-content{position:fixed;top:0;right:0;width:200px;height:100%;background-color:#fff;border-left:1px solid #ECF0F1;-webkit-transform:translate3d(0px, 0px, 0px) translateX(200px);transform:translate3d(0px, 0px, 0px) translateX(200px);-webkit-transition:all .4s cubic-bezier(0.16, 0.63, 0.45, 0.98) 0s;transition:all .4s cubic-bezier(0.16, 0.63, 0.45, 0.98) 0s}.off-canvas-container{-webkit-transform:translate3d(0, 0, 0) translateX(0);transform:translate3d(0, 0, 0) translateX(0);-webkit-transition:all .4s cubic-bezier(0.16, 0.63, 0.45, 0.98) 0s;transition:all .4s cubic-bezier(0.16, 0.63, 0.45, 0.98) 0s}.off-canvas-container.is-active{-webkit-transform:translate3d(0px, 0px, 0px) translateX(-200px);transform:translate3d(0px, 0px, 0px) translateX(-200px)}}.footer{padding:16px 0;background-color:#fff}@media only screen and (min-width: 40.063em){.footer{padding:50px 0}}.footer__section{margin-bottom:16px}.footer__section:last-child{margin-bottom:0}.social-icons li{display:inline-block;vertical-align:super}.social-icons .icon{fill:#222;transition:.4s}.social-icons .icon:hover{fill:#7E7E7E}.author-image{float:left;margin:0;margin-right:25px}.author-image .img{height:96px;width:96px;background-position:center;background-size:cover;border-radius:6px}@media only screen and (max-width: 40em){.author-image .img{height:64px;width:64px}}@media only screen and (min-width: 64em){.author-image{margin-right:32px}}.author-meta{text-indent:-1px}.author-meta .icon{fill:#222;transition:.4s}.author-meta a .icon:hover{fill:#7E7E7E}.post{margin-bottom:32px;padding:25px}.post--no-image{border-width:1px}@media only screen and (min-width: 40.063em){.post{padding:32px}}@media only screen and (min-width: 64em){.post{padding:50px 64px}}.post__header{margin-bottom:13px}.post__title{margin-bottom:13px;font-size:24px}@media only screen and (min-width: 64em){.post__title{font-size:32px}}.post__date{font-size:14px;line-height:22px;display:block;color:#7E7E7E}.post-content a{background-image:linear-gradient(to bottom, #222, #222);text-shadow:-1px -1px 0 #FDFDFD, 1px -1px 0 #FDFDFD, -1px 1px 0 #FDFDFD, 1px 1px 0 #FDFDFD;background-repeat:repeat-x;background-size:1px 1px;background-position:0 96%;text-decoration:none}.post-content a:hover{background-image:linear-gradient(to bottom, #7E7E7E, #7E7E7E)}.grey-bg{background-color:#FAFAFA}.no-bullets,.list-bare{list-style:none}.bullets-inside{list-style:inside}.list-bare{margin:0;padding:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Hiragino Sans GB","Microsoft YaHei","WenQuanYi Micro Hei",sans-serif;font-weight:400}.text-left{text-align:left}.text-right{text-align:right}.text-center{text-align:center}.text-justify{text-align:justify}.inline{display:inline}.block{display:block}.inline-block{display:inline-block}.hide{display:none}.left{float:left}.right{float:right}.hidden{border:0 none;clip:rect(1px, 1px, 1px, 1px);height:1px;overflow:hidden;padding:0;position:absolute !important;width:1px}.clearfix:before,.clearfix:after{content:" ";display:table}.clearfix:after{clear:both}.light{font-weight:300}.regular{font-weight:400}.bold{font-weight:700}.italic{font-style:italic}.cap{text-transform:capitalize}.uppercase{text-transform:uppercase}.ell{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.font-base{font-size:19px}.font-medium{font-size:16px;line-height:25px}.font-small{font-size:14px;line-height:22px}.font-tiny{font-size:12px;line-height:19px}
+
+  </style>
+</head>
+
+<body>
+
+  <!-- Google Analytics Code -->
+
+  <div class="off-canvas-container">
+    <header class="site-header">
+
+  <div class="row">
+
+    <div class="column small-8 medium-3 large-3">
+      
+      <a href="/">
+        <img class="italki-logo" src="/images/icons/logo.svg" alt="">
+      </a>
+    </div>
+
+    <label class="off-canvas-toggle"><span data-icon="ei-navicon" data-size="s"></span></label>
+
+    <div class="off-canvas-content">
+      <div class="column medium-9 large-9">
+        <nav class="site-header__navigation navigation">
+          <ul class="list-bare">
+            
+              
+            
+              
+                
+                  <li>
+                    <a class="page-link" href="/about.html">About</a>
+                  </li>
+                
+              
+            
+              
+                
+              
+            
+              
+                
+              
+            
+              
+                
+              
+            
+              
+                
+              
+            
+              
+                
+              
+            
+              
+                
+              
+            
+              
+                
+              
+            
+          </ul>
+        </nav>
+      </div>
+    </div>
+
+  </div>
+
+</header>
+
+    
+
+
+
+
+    
+      <!-- <div class="column column--center medium-10 large-10"> -->
+        <div class="grey-bg CoverImage FlexEmbed FlexEmbed--16by9" style="background-image: url(/images/posts/sketch2figma/sketch2figma.jpg)"></div>
+      <!-- </div> -->
+    
+
+<div class="wrapper">
+  <div class="row">
+
+
+    <div class="column column--center medium-10 large-10">
+      <article class="post " itemscope itemtype="http://schema.org/BlogPosting">
+
+        
+          <meta itemprop="og:image" content="/images/posts/sketch2figma/sketch2figma.jpg">
+        
+
+        <header class="text-center post__header">
+          <h2 class="post__title" itemprop="name headline">From Sketch to Figma</h2>
+          <time class="post__date" datetime="2020-03-08T00:00:00+08:00" itemprop="datePublished">Mar 8, 2020</time>
+        </header>
+
+        <div class="post-content" itemprop="articleBody">
+          <blockquote>
+  <p>We switched our design tool from Sketch to Figma in August, 2019. Looking back, there are a few thoughts that are worth sharing.</p>
+</blockquote>
+
+<h2 id="sketch">Sketch</h2>
+
+<p>Sketch is by far the No.1 design tool in digital product design industry. I was one of the first group of people in the industry to try out Sketch. I started to use Sketch from version 2, and paid for the upgrade to version 3, paid again when they moved out of the Mac App Store, and then switched to their subscription model.</p>
+
+<p><img src="/images/posts/sketch2figma/0.png" alt="sketch" /></p>
+
+<p>I was a big fan of Sketch since the beginning and I acted almost like an evangelist to convince my fellow designer friends to made the switch from Adobe to Sketch.</p>
+
+<h2 id="figma">Figma</h2>
+
+<p>I knew Figma since 2016, their CTO and co-founder wrote a blog post introducing the “<a href="https://www.figma.com/blog/introducing-vector-networks/">Vector Networks</a>”, explaining how advanced their algorithm was compared with other existing tools (like Sketch). I wasn’t really interested into it but still I decided to give it a try.</p>
+
+<p><img src="/images/posts/sketch2figma/1.png" alt="figma" /></p>
+
+<p>And I was disappointed.</p>
+
+<p>Making an icon wasn’t super easy in Sketch, but it was quite ok - not really a pain point. The new approach of Figma might have some technical advantages but I didn’t even try to play with it. Because,  as a UI design tool, Figma’s UI by that time, was terrible!</p>
+
+<p>As a designer how has to look at the screen 10+ hours every day, I couldn’t  look at he pure black background and the pure white icons and text labels. I bet there were already lots of nice features there but it lost me on the first sight.</p>
+
+<blockquote>
+  <p>Lesson learnt: People DO judge a book by its cover. Make your app prettier before rolling out PR articles.</p>
+</blockquote>
+
+<p>The first impression wasn’t great, for the following years, Figma was actively posting news and blogs  in the design community. I gave it a few more tries later, and still, I was disappointed every time - by the same ugly interface.</p>
+
+<p>It was at a very late stage until I realized, that the problem was in their sample file - which was using the pure black and white combination. Actually you can manually change the background yourself.</p>
+
+<p><img src="/images/posts/sketch2figma/2.png" alt="figma sample" /></p>
+
+<p>Oh, did I even mention that they used the pure red as the accent color (on top of black)?</p>
+
+<blockquote>
+  <p>Second lesson learnt: If your first impression wasn’t good enough, it is hard to win the date back.</p>
+</blockquote>
+
+<h2 id="the-turn-over">The turn over</h2>
+
+<p>About 3 months before I joined italki, I was working on a personal project with a remote developer partner. We used to use Sketch + Measure (a free plugin for handoff) + dropbox to sync our working files. I needed to renew my Sketch license by that time. Syncing data via dropbox wasn’t efficient enough, so I thought, maybe give Figma another try?</p>
+
+<p>So I tried to import my Sketch files into Figma, and realized that - wow, it doesn’t have to have a black background! I spent some time cleaning up the Sketch import, then started to share it with my partner - and I was blowed away!</p>
+
+<p>The real-time collaboration, the comments, the built-in handoff, the customized assets download, everything was sooooooo damn good for remote collaborators!</p>
+
+<p>It did take some efforts to get used to Figma’s way of designing and organizing the artboards. I was also missing some handy functions and plugins which were only available in Sketch, but, THERE IS NO WAY BACK!</p>
+
+<p><img src="/images/posts/sketch2figma/3.png" alt="goodbye" /></p>
+
+<blockquote>
+  <p>Goodbye Sketch, we were in love for the past 7~8 years and we had a great time together, but sorry darling, it is time to say goodbye. There is nothing wrong about you, it is just that I’ve found my new soul mate.</p>
+</blockquote>
+
+<h2 id="made-the-switch-in-italki">Made the switch in italki</h2>
+
+<p>When I joined italki, I had no intention to made the switch anytime soon. However, when I tried to understand how the team was organizing and sharing the design assets. I had a hard time to get the right assets.</p>
+
+<p><img src="/images/posts/sketch2figma/4.png" alt="folder" /></p>
+
+<p>I mean, there is nothing wrong with the folder structure, it was actually organized super well. But still, you have to download different files to check whether it is the one you were looking for. The lack of thumbnails and previews, and all the downloading/syncing made the process super slow and difficult.</p>
+
+<p>That made me start to think whether we should make the switch to Figma.</p>
+
+<h3 id="pros-and-cons">Pros and Cons</h3>
+
+<p>Switching to a new platform is never an easy decision. We need to evaluate the migration cost, the communication cost, the drawbacks during the transition, etc.</p>
+
+<p><strong>The Pros were clear:</strong></p>
+
+<ol>
+  <li>Everything in the cloud, no more downloading and syncing. And no more Mac only limitation.</li>
+  <li>Multiple designer can work on a same project simultaneously, with version control.</li>
+  <li>Developers can inspect the design directly in the cloud, no more exporting and/or uploading.</li>
+  <li>Everyone can have a free account for viewing, inspecting and commenting the design, no more shared Zeplin account.</li>
+  <li>Product managers and content writers can potentially work in the same environment.</li>
+</ol>
+
+<p><strong>The Cons on the other hand were not super clear:</strong></p>
+
+<ol>
+  <li>How much does it take for the team to learn the new tool?</li>
+  <li>How much does it cost to convert all the Sketch files into Figma?</li>
+  <li>Sketch has a matured ecosystem with all the plugins and 3rd-party tools, while Figma was still pretty closed, if it doesn’t offer a certain function, there is no workaround.</li>
+  <li>While migrating, would it slow down the overall product development process?</li>
+</ol>
+
+<p>The decision was made pretty quick, though. The team were able to get started with Figma basics pretty soon and we migrated a few key files into Figma - it wasn’t perfect and lots of manual tweaks had to be done. Our strategy was to use the import as a basic reference, and rebuild everything while designing new features. It worked pretty well.</p>
+
+<p>mbnb</p>
+
+<p>My supervisor, our co-founder and CPO, Yongyue Jiang, was also very supportive on this. He quickly setup the team account and paid the bills. We then quickly replaced the Sketch-to-Zeplin workflow with the all-in-one Figma solution. We did pay necessary communication cost along the way, but generally the transition was much smoother than expected.</p>
+
+<h3 id="the-limitations">The Limitations</h3>
+
+<p>We did met with a few issues during and after switching to Figma. One of the biggest concern was the lack of prototyping solution.</p>
+
+<p>One big miss in the italki design team was that we didn’t make enough prototypes — As a matter of fact, we made zero prototypes.</p>
+
+<p>Figma did support basic page-to-page transitions, and it actually worked much better than Sketch’s built-in prototype tool, but still it was too limited. With Sketch we can have 3rd-party solutions like Flinto and Principle, but with Figma we are stuck there with the basic tools.</p>
+
+<p>Things started to get promising when Figma released the <a href="https://www.figma.com/blog/announcing-smart-animate-and-advanced-transitions/">Smart Animate</a> feature, as well as an open plugin marketplace, which opened up a whole new world of possibilities.</p>
+
+<p>Till now we are still looking for a better prototyping solution on Figma, but a lot of work could already have been done there. The bigger problem to solve is that, we are still NOT using them yet.</p>
+
+<blockquote>
+  <p>Come on team, let’s start to make your design alive!</p>
+</blockquote>
+
+<p>People say that Figma is basically Sketch + inVision + Zeplin. I would say that it is much more than that. The collaboration capability had improved both our internal and external communications, the cloud-based solution allows it to be seamlessly integrated into other working platforms like Confluence and Jira. The growing plugin marketplace gives it infinite possibilities for the future. And yet we are only just using the basic design functions of it.</p>
+
+<h2 id="is-figma-the-king-of-the-future">Is Figma the King of the future</h2>
+
+<p>I’ve given too much praise to Figma. So does it mean it is the King of the future?</p>
+
+<p>Not necessarily.</p>
+
+<p>We are seeing Sketch is chasing back after Figma now, by releasing the <a href="https://www.sketch.com/for-teams/">team plan</a> as well as more cloud supports and live collaboration functions in the pipeline.</p>
+
+<p><img src="/images/posts/sketch2figma/5.png" alt="sketch team" /></p>
+
+<p>On the other hand, another promising tool, <a href="https://www.framer.com/">FramerX</a> is also raising up very quickly and taking up the market share. (By the way, it is much prettier than Figma!). The design tools and platforms are still in the middle of evolving and they are evolving really fast. Picking a right tool would help us get the job done in the right and faster way. Always keep an eye on what’s happening and never miss the chance.</p>
+
+<p><img src="/images/posts/sketch2figma/6.png" alt="framer" /></p>
+
+<p>As an ending note, keep an eye on the <a href="https://www.framer.com/web/](https://www.framer.com/web/)">web version of Framer</a> and see how it performs when it comes public, this might be our next move.</p>
+
+        </div>
+
+        <div class="row">
+          <div class="column large-10">
+            <div class="post__tags">
+              
+                <a href="/tag/sketch">sketch</a>
+              
+                <a href="/tag/figma">figma</a>
+              
+                <a href="/tag/tools">tools</a>
+              
+            </div>
+          </div>
+          <div class="column large-2">
+            
+
+<ul class="share-list">
+  <li>
+    <a class="share-list__link" href="https://twitter.com/intent/tweet?text=From Sketch to Figma&url=/2020/03/08/sketch2figma/&via=aspirethemes&related=aspirethemes" rel="nofollow" target="_blank" title="Share on Twitter">
+      <div data-icon="ei-sc-twitter" data-size="s" class="share-list__icon share-list__icon--twitter"></div>
+    </a>
+  </li>
+  <li>
+    <a class="share-list__link" href="https://facebook.com/sharer.php?u=/2020/03/08/sketch2figma/" rel="nofollow" target="_blank" title="Share on Facebook">
+    <div data-icon="ei-sc-facebook" data-size="s" class="share-list__icon share-list__icon--facebook"></div>
+    </a>
+  </li>
+</ul>
+          </div>
+        </div>
+
+        <hr>
+
+        
+          <div class="box box--author">
+
+  
+
+  <div class="box__body">
+
+    <h4 class="box__title">
+      
+    </h4>
+
+    
+
+    <div class="author-meta box__text">
+      
+
+      
+
+      
+
+      
+    </div>
+
+  </div><!-- box__body -->
+
+</div><!-- box -->
+        
+
+        <hr>
+        <!-- <section class="disqus">
+  <h5 class="separator">
+    <span class="separator__title">Comments</span>
+  </h5>
+  <div id="disqus_thread"></div>
+
+<script>
+  var disqus_config = function () {
+    this.page.url = "/2020/03/08/sketch2figma/";
+  };
+
+  (function() {
+    var d = document, s = d.createElement('script');
+
+    s.src = '//aspirethemes-demos.disqus.com/embed.js';
+
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+  })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+</section> -->
+
+      </article>
+    </div>
+
+  </div> <!-- row-->
+</div> <!-- wrapper -->
+
+    <footer class="footer">
+  <div class="row">
+
+    <div class="column large-12 footer__section">
+      <nav class="navigation">
+        <ul class="list-bare footer__nav text-center">
+          
+            
+          
+            
+              
+                <li>
+                  <a class="page-link" href="/about.html">About</a>
+                </li>
+              
+            
+          
+            
+              
+            
+          
+            
+              
+            
+          
+            
+              
+            
+          
+            
+              
+            
+          
+            
+              
+            
+          
+            
+              
+            
+          
+            
+              
+            
+          
+          <li><a class="subscribe-button icon-feed" href="/feed.xml">RSS</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <div class="column large-12 footer__section">
+      <ul class="list-bare footer__nav social-icons text-center">
+        
+        <li>
+          <a href="http://www.twitter.com/aspirethemes" target="_blank">
+            <span data-icon="ei-sc-twitter" data-size="s"></span>
+          </a>
+        </li>
+        
+
+        
+        <li>
+          <a href="http://www.github.com/aspirethemes" target="_blank">
+            <span data-icon="ei-sc-github" data-size="s"></span>
+          </a>
+        </li>
+        
+
+        
+        <li>
+          <a href="mailto:your-email@domain.com" target="_blank">
+            <span data-icon="ei-envelope" data-size="s"></span>
+          </a>
+        </li>
+        
+      </ul>
+    </div>
+
+    <div class="column large-12 footer__section">
+      <div class="text-center">
+        <div class="font-tiny">
+          &copy; 2020 italki Design
+        </div>
+      </div>
+    </div>
+
+  </div>
+</footer>
+  </div>
+
+  <script src="/js/jquery-2.1.4.min.js"></script>
+  <script src="/js/evil-icons.min.js"></script>
+  <script src="/js/jquery.fitvids.js"></script>
+  <script src="/js/script.js"></script>
+</body>
+
+</html>

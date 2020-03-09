@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>italki Design</title>
+    <description>Designing great products</description>
+    <link>/</link>
+    <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Mon, 09 Mar 2020 22:09:47 +0800</pubDate>
+    <lastBuildDate>Mon, 09 Mar 2020 22:09:47 +0800</lastBuildDate>
+    <generator>Jekyll v3.0.1</generator>
+
+    
+      <item>
+        <title>From Sketch to Figma</title>
+        <description>&lt;blockquote&gt;
+  &lt;p&gt;We switched our design tool from Sketch to Figma in August, 2019. Looking back, there are a few thoughts that are worth sharing.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;sketch&quot;&gt;Sketch&lt;/h2&gt;
+
+&lt;p&gt;Sketch is by far the No.1 design tool in digital product design industry. I was one of the first group of people in the industry to try out Sketch. I started to use Sketch from version 2, and paid for the upgrade to version 3, paid again when they moved out of the Mac App Store, and then switched to their subscription model.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/posts/sketch2figma/0.png&quot; alt=&quot;sketch&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I was a big fan of Sketch since the beginning and I acted almost like an evangelist to convince my fellow designer friends to made the switch from Adobe to Sketch.&lt;/p&gt;
+
+&lt;h2 id=&quot;figma&quot;&gt;Figma&lt;/h2&gt;
+
+&lt;p&gt;I knew Figma since 2016, their CTO and co-founder wrote a blog post introducing the “&lt;a href=&quot;https://www.figma.com/blog/introducing-vector-networks/&quot;&gt;Vector Networks&lt;/a&gt;”, explaining how advanced their algorithm was compared with other existing tools (like Sketch). I wasn’t really interested into it but still I decided to give it a try.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/posts/sketch2figma/1.png&quot; alt=&quot;figma&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;And I was disappointed.&lt;/p&gt;
+
+&lt;p&gt;Making an icon wasn’t super easy in Sketch, but it was quite ok - not really a pain point. The new approach of Figma might have some technical advantages but I didn’t even try to play with it. Because,  as a UI design tool, Figma’s UI by that time, was terrible!&lt;/p&gt;
+
+&lt;p&gt;As a designer how has to look at the screen 10+ hours every day, I couldn’t  look at he pure black background and the pure white icons and text labels. I bet there were already lots of nice features there but it lost me on the first sight.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Lesson learnt: People DO judge a book by its cover. Make your app prettier before rolling out PR articles.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;The first impression wasn’t great, for the following years, Figma was actively posting news and blogs  in the design community. I gave it a few more tries later, and still, I was disappointed every time - by the same ugly interface.&lt;/p&gt;
+
+&lt;p&gt;It was at a very late stage until I realized, that the problem was in their sample file - which was using the pure black and white combination. Actually you can manually change the background yourself.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/posts/sketch2figma/2.png&quot; alt=&quot;figma sample&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Oh, did I even mention that they used the pure red as the accent color (on top of black)?&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Second lesson learnt: If your first impression wasn’t good enough, it is hard to win the date back.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;the-turn-over&quot;&gt;The turn over&lt;/h2&gt;
+
+&lt;p&gt;About 3 months before I joined italki, I was working on a personal project with a remote developer partner. We used to use Sketch + Measure (a free plugin for handoff) + dropbox to sync our working files. I needed to renew my Sketch license by that time. Syncing data via dropbox wasn’t efficient enough, so I thought, maybe give Figma another try?&lt;/p&gt;
+
+&lt;p&gt;So I tried to import my Sketch files into Figma, and realized that - wow, it doesn’t have to have a black background! I spent some time cleaning up the Sketch import, then started to share it with my partner - and I was blowed away!&lt;/p&gt;
+
+&lt;p&gt;The real-time collaboration, the comments, the built-in handoff, the customized assets download, everything was sooooooo damn good for remote collaborators!&lt;/p&gt;
+
+&lt;p&gt;It did take some efforts to get used to Figma’s way of designing and organizing the artboards. I was also missing some handy functions and plugins which were only available in Sketch, but, THERE IS NO WAY BACK!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/posts/sketch2figma/3.png&quot; alt=&quot;goodbye&quot; /&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Goodbye Sketch, we were in love for the past 7~8 years and we had a great time together, but sorry darling, it is time to say goodbye. There is nothing wrong about you, it is just that I’ve found my new soul mate.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;made-the-switch-in-italki&quot;&gt;Made the switch in italki&lt;/h2&gt;
+
+&lt;p&gt;When I joined italki, I had no intention to made the switch anytime soon. However, when I tried to understand how the team was organizing and sharing the design assets. I had a hard time to get the right assets.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/posts/sketch2figma/4.png&quot; alt=&quot;folder&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I mean, there is nothing wrong with the folder structure, it was actually organized super well. But still, you have to download different files to check whether it is the one you were looking for. The lack of thumbnails and previews, and all the downloading/syncing made the process super slow and difficult.&lt;/p&gt;
+
+&lt;p&gt;That made me start to think whether we should make the switch to Figma.&lt;/p&gt;
+
+&lt;h3 id=&quot;pros-and-cons&quot;&gt;Pros and Cons&lt;/h3&gt;
+
+&lt;p&gt;Switching to a new platform is never an easy decision. We need to evaluate the migration cost, the communication cost, the drawbacks during the transition, etc.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;The Pros were clear:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Everything in the cloud, no more downloading and syncing. And no more Mac only limitation.&lt;/li&gt;
+  &lt;li&gt;Multiple designer can work on a same project simultaneously, with version control.&lt;/li&gt;
+  &lt;li&gt;Developers can inspect the design directly in the cloud, no more exporting and/or uploading.&lt;/li&gt;
+  &lt;li&gt;Everyone can have a free account for viewing, inspecting and commenting the design, no more shared Zeplin account.&lt;/li&gt;
+  &lt;li&gt;Product managers and content writers can potentially work in the same environment.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;strong&gt;The Cons on the other hand were not super clear:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;How much does it take for the team to learn the new tool?&lt;/li&gt;
+  &lt;li&gt;How much does it cost to convert all the Sketch files into Figma?&lt;/li&gt;
+  &lt;li&gt;Sketch has a matured ecosystem with all the plugins and 3rd-party tools, while Figma was still pretty closed, if it doesn’t offer a certain function, there is no workaround.&lt;/li&gt;
+  &lt;li&gt;While migrating, would it slow down the overall product development process?&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;The decision was made pretty quick, though. The team were able to get started with Figma basics pretty soon and we migrated a few key files into Figma - it wasn’t perfect and lots of manual tweaks had to be done. Our strategy was to use the import as a basic reference, and rebuild everything while designing new features. It worked pretty well.&lt;/p&gt;
+
+&lt;p&gt;mbnb&lt;/p&gt;
+
+&lt;p&gt;My supervisor, our co-founder and CPO, Yongyue Jiang, was also very supportive on this. He quickly setup the team account and paid the bills. We then quickly replaced the Sketch-to-Zeplin workflow with the all-in-one Figma solution. We did pay necessary communication cost along the way, but generally the transition was much smoother than expected.&lt;/p&gt;
+
+&lt;h3 id=&quot;the-limitations&quot;&gt;The Limitations&lt;/h3&gt;
+
+&lt;p&gt;We did met with a few issues during and after switching to Figma. One of the biggest concern was the lack of prototyping solution.&lt;/p&gt;
+
+&lt;p&gt;One big miss in the italki design team was that we didn’t make enough prototypes — As a matter of fact, we made zero prototypes.&lt;/p&gt;
+
+&lt;p&gt;Figma did support basic page-to-page transitions, and it actually worked much better than Sketch’s built-in prototype tool, but still it was too limited. With Sketch we can have 3rd-party solutions like Flinto and Principle, but with Figma we are stuck there with the basic tools.&lt;/p&gt;
+
+&lt;p&gt;Things started to get promising when Figma released the &lt;a href=&quot;https://www.figma.com/blog/announcing-smart-animate-and-advanced-transitions/&quot;&gt;Smart Animate&lt;/a&gt; feature, as well as an open plugin marketplace, which opened up a whole new world of possibilities.&lt;/p&gt;
+
+&lt;p&gt;Till now we are still looking for a better prototyping solution on Figma, but a lot of work could already have been done there. The bigger problem to solve is that, we are still NOT using them yet.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Come on team, let’s start to make your design alive!&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;People say that Figma is basically Sketch + inVision + Zeplin. I would say that it is much more than that. The collaboration capability had improved both our internal and external communications, the cloud-based solution allows it to be seamlessly integrated into other working platforms like Confluence and Jira. The growing plugin marketplace gives it infinite possibilities for the future. And yet we are only just using the basic design functions of it.&lt;/p&gt;
+
+&lt;h2 id=&quot;is-figma-the-king-of-the-future&quot;&gt;Is Figma the King of the future&lt;/h2&gt;
+
+&lt;p&gt;I’ve given too much praise to Figma. So does it mean it is the King of the future?&lt;/p&gt;
+
+&lt;p&gt;Not necessarily.&lt;/p&gt;
+
+&lt;p&gt;We are seeing Sketch is chasing back after Figma now, by releasing the &lt;a href=&quot;https://www.sketch.com/for-teams/&quot;&gt;team plan&lt;/a&gt; as well as more cloud supports and live collaboration functions in the pipeline.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/posts/sketch2figma/5.png&quot; alt=&quot;sketch team&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;On the other hand, another promising tool, &lt;a href=&quot;https://www.framer.com/&quot;&gt;FramerX&lt;/a&gt; is also raising up very quickly and taking up the market share. (By the way, it is much prettier than Figma!). The design tools and platforms are still in the middle of evolving and they are evolving really fast. Picking a right tool would help us get the job done in the right and faster way. Always keep an eye on what’s happening and never miss the chance.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/posts/sketch2figma/6.png&quot; alt=&quot;framer&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;As an ending note, keep an eye on the &lt;a href=&quot;https://www.framer.com/web/](https://www.framer.com/web/)&quot;&gt;web version of Framer&lt;/a&gt; and see how it performs when it comes public, this might be our next move.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 08 Mar 2020 00:00:00 +0800</pubDate>
+        <link>/2020/03/08/sketch2figma/</link>
+        <guid isPermaLink="true">/2020/03/08/sketch2figma/</guid>
+      </item>
+    
+      <item>
+        <title>Mike Monteiro: 13 Ways Designers Screw Up Client Presentations</title>
+        <description>&lt;blockquote&gt;
+  &lt;p&gt;The hardest part of design is presenting work. I’ve seen people who did amazing work get up in front of a client and lay eggs. I’ve also seen people do alright work and wind clients around their little finger. Optimally, you want to do good work and present it well. But I’d rather have a good designer who can present well than a great designer who can’t. Work that can’t be sold is as useless as the designer who can’t sell it. Presenting is a core design skill. In this session we’ll go over the most common mistakes designers make when presenting their work, and how to avoid them.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;hr /&gt;
+
+&lt;iframe src=&quot;https://player.vimeo.com/video/121082134&quot; frameborder=&quot;0&quot; webkitallowfullscreen=&quot;&quot; mozallowfullscreen=&quot;&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;hr /&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;A good designer who can sell work is more valuable than a great designer who can’t.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;seeing-the-client-as-someone-they-have-to-please&quot;&gt;1. Seeing the client as someone they have to please&lt;/h2&gt;
+
+&lt;p&gt;happiness is a side-effect of good design, not a goal.&lt;/p&gt;
+
+&lt;h2 id=&quot;not-getting-off-your-ass&quot;&gt;2. Not getting off your ass&lt;/h2&gt;
+
+&lt;h2 id=&quot;starting-with-an-apology&quot;&gt;3. Starting with an apology&lt;/h2&gt;
+
+&lt;h2 id=&quot;not-setting-the-stage-properly&quot;&gt;4. Not setting the stage properly&lt;/h2&gt;
+
+&lt;h2 id=&quot;giving-the-real-estate-tour&quot;&gt;5. Giving the real estate tour&lt;/h2&gt;
+
+&lt;h2 id=&quot;taking-notes&quot;&gt;6. Taking notes&lt;/h2&gt;
+
+&lt;h2 id=&quot;reading-a-script&quot;&gt;7. Reading a script&lt;/h2&gt;
+
+&lt;h2 id=&quot;getting-defensive&quot;&gt;8. Getting defensive&lt;/h2&gt;
+
+&lt;h2 id=&quot;mentioning-typefaces&quot;&gt;9. Mentioning typefaces&lt;/h2&gt;
+
+&lt;h2 id=&quot;talking-about-how-hard-you-worked&quot;&gt;10. Talking about how hard you worked&lt;/h2&gt;
+
+&lt;h2 id=&quot;reacting-to-questions-as-change-requests&quot;&gt;11. Reacting to questions as change requests&lt;/h2&gt;
+
+&lt;h2 id=&quot;not-guiding-the-feedback-loop&quot;&gt;12. Not guiding the feedback loop&lt;/h2&gt;
+
+&lt;h2 id=&quot;asking-do-you-like-it&quot;&gt;13. Asking “Do you like it?”&lt;/h2&gt;
+
+&lt;h4 id=&quot;and-one-weird-trick-that-you-wont-believe-works-every-time&quot;&gt;…and one weird trick that you won’t believe works every time.&lt;/h4&gt;
+
+&lt;p&gt;Learn the client’s goddamn name.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 06 Mar 2020 00:00:00 +0800</pubDate>
+        <link>/2020/03/06/13-ways-designers-screw-up-client-presentations/</link>
+        <guid isPermaLink="true">/2020/03/06/13-ways-designers-screw-up-client-presentations/</guid>
+      </item>
+    
+  </channel>
+</rss>
