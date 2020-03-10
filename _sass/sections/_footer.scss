@@ -5,6 +5,7 @@
 .footer {
   padding: half($line-height__base)  0;
   background-color: #fff;
+  font-family: $font__sanserif;
 
   @media #{$medium-up} { padding: double($line-height__medium) 0; }
 

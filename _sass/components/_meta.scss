@@ -5,6 +5,7 @@
 .post__tags {
   margin-bottom: $line-height__base - half(quarter($line-height__base));
   font-size: $font-size__small;
+  font-family: $font__sanserif;
 
   a {
     padding: half(quarter($line-height__small)) half($line-height__small);
