@@ -10,7 +10,7 @@ title:            italki Design
 email:            your-email@domain.com
 description:      Designing great products
 baseurl:          '' # The subpath of your site, e.g. /blog
-url:              '' # The base hostname & protocol for your site
+url:              'http://italki.design' # The base hostname & protocol for your site
 github_username:  italki
 twitter_username: italki
 
@@ -46,11 +46,11 @@ defaults:
 
 # Authors
 authors:
-  ahmad:
+  junjie:
     name:             Junjie Shao
-    bio:              A product designer
-    gravatar:         https://s.gravatar.com/avatar/f83141edd9e6339e678648596a403fd5?s=150
-    email:            na
+    bio:              Head of design @ italki
+    gravatar:         /images/avatars/junjie.jpg
+    email:            
     website:          http://italki.design
-    github_username:  na
-    twitter_username: na
+    github_username:  
+    twitter_username: 

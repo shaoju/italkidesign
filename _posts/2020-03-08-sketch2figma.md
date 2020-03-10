@@ -2,7 +2,7 @@
 layout: post
 title: From Sketch to Figma
 featured: true
-author: junjie shao
+author: junjie
 tags: [sketch, figma, tools]
 image: '/images/posts/sketch2figma/sketch2figma.jpg'
 ---

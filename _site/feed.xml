@@ -5,8 +5,8 @@
     <description>Designing great products</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 10 Mar 2020 14:07:37 +0800</pubDate>
-    <lastBuildDate>Tue, 10 Mar 2020 14:07:37 +0800</lastBuildDate>
+    <pubDate>Tue, 10 Mar 2020 22:49:00 +0800</pubDate>
+    <lastBuildDate>Tue, 10 Mar 2020 22:49:00 +0800</lastBuildDate>
     <generator>Jekyll v3.6.3</generator>
 
     
@@ -149,7 +149,8 @@
       <item>
         <title>Mike Monteiro: 13 Ways Designers Screw Up Client Presentations</title>
         <description>&lt;blockquote&gt;
-  &lt;p&gt;The hardest part of design is presenting work. I’ve seen people who did amazing work get up in front of a client and lay eggs. I’ve also seen people do alright work and wind clients around their little finger. Optimally, you want to do good work and present it well. But I’d rather have a good designer who can present well than a great designer who can’t. Work that can’t be sold is as useless as the designer who can’t sell it. Presenting is a core design skill. In this session we’ll go over the most common mistakes designers make when presenting their work, and how to avoid them.&lt;/p&gt;
+  &lt;p&gt;A good designer who can sell work is more valuable than a great designer who can’t. &lt;br /&gt;
+The hardest part of design is presenting work. I’ve seen people who did amazing work get up in front of a client and lay eggs. I’ve also seen people do alright work and wind clients around their little finger. Optimally, you want to do good work and present it well. But I’d rather have a good designer who can present well than a great designer who can’t. Work that can’t be sold is as useless as the designer who can’t sell it. Presenting is a core design skill. In this session we’ll go over the most common mistakes designers make when presenting their work, and how to avoid them.&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;hr /&gt;
@@ -158,45 +159,70 @@
 
 &lt;hr /&gt;
 
-&lt;blockquote&gt;
-  &lt;p&gt;A good designer who can sell work is more valuable than a great designer who can’t.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h2 id=&quot;1-seeing-the-client-as-someone-they-have-to-please&quot;&gt;1. Seeing the client as someone they have to please&lt;/h2&gt;
+&lt;h3 id=&quot;1-seeing-the-client-as-someone-they-have-to-please&quot;&gt;1. Seeing the client as someone they have to please&lt;/h3&gt;
 
 &lt;p&gt;happiness is a side-effect of good design, not a goal.&lt;/p&gt;
 
-&lt;h2 id=&quot;2-not-getting-off-your-ass&quot;&gt;2. Not getting off your ass&lt;/h2&gt;
+&lt;h3 id=&quot;2-not-getting-off-your-ass&quot;&gt;2. Not getting off your ass&lt;/h3&gt;
 
-&lt;h2 id=&quot;3-starting-with-an-apology&quot;&gt;3. Starting with an apology&lt;/h2&gt;
+&lt;h3 id=&quot;3-starting-with-an-apology&quot;&gt;3. Starting with an apology&lt;/h3&gt;
 
-&lt;h2 id=&quot;4-not-setting-the-stage-properly&quot;&gt;4. Not setting the stage properly&lt;/h2&gt;
+&lt;h3 id=&quot;4-not-setting-the-stage-properly&quot;&gt;4. Not setting the stage properly&lt;/h3&gt;
 
-&lt;h2 id=&quot;5-giving-the-real-estate-tour&quot;&gt;5. Giving the real estate tour&lt;/h2&gt;
+&lt;h3 id=&quot;5-giving-the-real-estate-tour&quot;&gt;5. Giving the real estate tour&lt;/h3&gt;
 
-&lt;h2 id=&quot;6-taking-notes&quot;&gt;6. Taking notes&lt;/h2&gt;
+&lt;h3 id=&quot;6-taking-notes&quot;&gt;6. Taking notes&lt;/h3&gt;
 
-&lt;h2 id=&quot;7-reading-a-script&quot;&gt;7. Reading a script&lt;/h2&gt;
+&lt;h3 id=&quot;7-reading-a-script&quot;&gt;7. Reading a script&lt;/h3&gt;
 
-&lt;h2 id=&quot;8-getting-defensive&quot;&gt;8. Getting defensive&lt;/h2&gt;
+&lt;h3 id=&quot;8-getting-defensive&quot;&gt;8. Getting defensive&lt;/h3&gt;
 
-&lt;h2 id=&quot;9-mentioning-typefaces&quot;&gt;9. Mentioning typefaces&lt;/h2&gt;
+&lt;h3 id=&quot;9-mentioning-typefaces&quot;&gt;9. Mentioning typefaces&lt;/h3&gt;
 
-&lt;h2 id=&quot;10-talking-about-how-hard-you-worked&quot;&gt;10. Talking about how hard you worked&lt;/h2&gt;
+&lt;h3 id=&quot;10-talking-about-how-hard-you-worked&quot;&gt;10. Talking about how hard you worked&lt;/h3&gt;
 
-&lt;h2 id=&quot;11-reacting-to-questions-as-change-requests&quot;&gt;11. Reacting to questions as change requests&lt;/h2&gt;
+&lt;h3 id=&quot;11-reacting-to-questions-as-change-requests&quot;&gt;11. Reacting to questions as change requests&lt;/h3&gt;
 
-&lt;h2 id=&quot;12-not-guiding-the-feedback-loop&quot;&gt;12. Not guiding the feedback loop&lt;/h2&gt;
+&lt;h3 id=&quot;12-not-guiding-the-feedback-loop&quot;&gt;12. Not guiding the feedback loop&lt;/h3&gt;
 
-&lt;h2 id=&quot;13-asking-do-you-like-it&quot;&gt;13. Asking “Do you like it?”&lt;/h2&gt;
+&lt;h3 id=&quot;13-asking-do-you-like-it&quot;&gt;13. Asking “Do you like it?”&lt;/h3&gt;
+&lt;hr /&gt;
 
-&lt;h4 id=&quot;and-one-weird-trick-that-you-wont-believe-works-every-time&quot;&gt;…and one weird trick that you won’t believe works every time.&lt;/h4&gt;
+&lt;h5 id=&quot;and-one-weird-trick-that-you-wont-believe-works-every-time&quot;&gt;…and one weird trick that you won’t believe works every time.&lt;/h5&gt;
 
 &lt;p&gt;Learn the client’s goddamn name.&lt;/p&gt;
 </description>
         <pubDate>Fri, 06 Mar 2020 00:00:00 +0800</pubDate>
         <link>http://localhost:4000/2020/03/06/13-ways-designers-screw-up-client-presentations/</link>
         <guid isPermaLink="true">http://localhost:4000/2020/03/06/13-ways-designers-screw-up-client-presentations/</guid>
+      </item>
+    
+      <item>
+        <title>译文：成绩不佳的产品设计师的7个迹象</title>
+        <description>&lt;h2 id=&quot;7-signs-of-an-underachieving-product-designer&quot;&gt;7 signs of an underachieving product designer&lt;/h2&gt;
+&lt;p&gt;原文：&lt;a href=&quot;https://uxdesign.cc/7-signs-of-an-underperforming-product-designer-df4a49029299&quot;&gt;https://uxdesign.cc/7-signs-of-an-underperforming-product-designer-df4a49029299&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;1他们从不问为什么they-never-ask-why&quot;&gt;1.他们从不问为什么/They never ask why&lt;/h3&gt;
+&lt;p&gt;产品设计师最终是体验的管理者。如果他（她）没有像幼儿那样质疑，那是一个不好的信号。不问问题会导致功能膨胀。&lt;/p&gt;
+&lt;h3 id=&quot;2他们有过多的注释和文档they-have-excessive-amounts-of-notes-and-documentation&quot;&gt;2.他们有过多的注释和文档/They have excessive amounts of notes and documentation&lt;/h3&gt;
+&lt;p&gt;记录思想和数据是保持组织结构和获取关键信息以进行设计决策的重要组成部分。但是，如果数据如此密集且过于复杂，以致于您无法检索重要信息或识别模式，那么它必然会陷入瘫痪。什么都没做。
+如果产品设计师无法简明扼要地记录或实时进行合成，那么这是一个不好的信号，表明他或她将无法利用经过多小时，几天或几周的研究而收集到的数据。收集它。&lt;/p&gt;
+&lt;h3 id=&quot;3他们不做原型they-dont-prototype&quot;&gt;3.他们不做原型/They don’t prototype&lt;/h3&gt;
+&lt;p&gt;如果一张图片价值1000字，那么一个原型价值1000次会议。&lt;/p&gt;
+&lt;h3 id=&quot;4他们对旅行没有兴趣they-have-no-interest-in-traveling&quot;&gt;4.他们对旅行没有兴趣/They have no interest in traveling&lt;/h3&gt;
+&lt;p&gt;研究表明，个人的创造力水平（以及促进创造力的开放态度）可以直接受到其旅行次数的影响。更重要的是，旅行使设计师能够更深入地了解文化，语言和经验。
+迪特勒·拉姆斯（Dieter Rams）曾经说过：“如果不了解别人，就不会理解好的设计。” 将自己沉浸在不同的文化中，将启发微妙的细微差别，这些细微差别塑造了我们的思维方式和我们所处的环境。如果产品设计师至少不希望出国旅行，那么他或她同情用户的能力可能会受到限制。&lt;/p&gt;
+&lt;h3 id=&quot;5他们没有在纸上画草稿they-dont-sketch-their-ideas&quot;&gt;5.他们没有在纸上画草稿/They don’t sketch their ideas&lt;/h3&gt;
+&lt;p&gt;即使是最优秀，最有经验的设计师也是错误的，而且大多数时候他们都是错误的。这就是设计在协作和迭代时更成功的原因。能够尽快完成所有想法既是增加创造力的一种手段，也是您和更重要的用户的反馈速度的一种手段。
+如果设计师开始使用一种设计工具，而不是使用笔和纸，那么他或她的移动速度就不够快，浪费了从不可避免的错误中学习的时间。&lt;/p&gt;
+&lt;h3 id=&quot;6他们不使用最新的设计工具they-dont-use-the-latest-design-tools&quot;&gt;6.他们不使用最新的设计工具/They don’t use the latest design tools&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;我知道这似乎很琐碎。&lt;/strong&gt;但是现实是，自满会杀死人。如果产品设计师不了解该行业使用的最新工具，则可能表明他/她没有积极寻求提高效率的方法。&lt;/p&gt;
+&lt;h3 id=&quot;7他们责怪开发they-blame-developers&quot;&gt;7.他们责怪开发/They blame developers&lt;/h3&gt;
+&lt;p&gt;如果设计的最终实现与预期不符（请阅读：pixel-perfect），那是设计者的错。他或她或者不了解什么在技术上可行，或者在编写代码时没有与开发人员有效地沟通以进行课程纠正。应该期望设计师创造愉悦的体验，其中包括与队友互动的经历。&lt;/p&gt;
+</description>
+        <pubDate>Sun, 01 Mar 2020 00:00:00 +0800</pubDate>
+        <link>http://localhost:4000/2020/03/01/7-signs-of-an-underachieving-product-designer/</link>
+        <guid isPermaLink="true">http://localhost:4000/2020/03/01/7-signs-of-an-underachieving-product-designer/</guid>
       </item>
     
   </channel>
