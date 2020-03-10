@@ -3,11 +3,11 @@
   <channel>
     <title>italki Design</title>
     <description>Designing great products</description>
-    <link>/</link>
-    <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 09 Mar 2020 22:09:47 +0800</pubDate>
-    <lastBuildDate>Mon, 09 Mar 2020 22:09:47 +0800</lastBuildDate>
-    <generator>Jekyll v3.0.1</generator>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Tue, 10 Mar 2020 12:50:20 +0800</pubDate>
+    <lastBuildDate>Tue, 10 Mar 2020 12:50:20 +0800</lastBuildDate>
+    <generator>Jekyll v3.6.3</generator>
 
     
       <item>
@@ -142,8 +142,8 @@
 &lt;p&gt;As an ending note, keep an eye on the &lt;a href=&quot;https://www.framer.com/web/](https://www.framer.com/web/)&quot;&gt;web version of Framer&lt;/a&gt; and see how it performs when it comes public, this might be our next move.&lt;/p&gt;
 </description>
         <pubDate>Sun, 08 Mar 2020 00:00:00 +0800</pubDate>
-        <link>/2020/03/08/sketch2figma/</link>
-        <guid isPermaLink="true">/2020/03/08/sketch2figma/</guid>
+        <link>http://localhost:4000/2020/03/08/sketch2figma/</link>
+        <guid isPermaLink="true">http://localhost:4000/2020/03/08/sketch2figma/</guid>
       </item>
     
       <item>
@@ -162,41 +162,41 @@
   &lt;p&gt;A good designer who can sell work is more valuable than a great designer who can’t.&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;h2 id=&quot;seeing-the-client-as-someone-they-have-to-please&quot;&gt;1. Seeing the client as someone they have to please&lt;/h2&gt;
+&lt;h2 id=&quot;1-seeing-the-client-as-someone-they-have-to-please&quot;&gt;1. Seeing the client as someone they have to please&lt;/h2&gt;
 
 &lt;p&gt;happiness is a side-effect of good design, not a goal.&lt;/p&gt;
 
-&lt;h2 id=&quot;not-getting-off-your-ass&quot;&gt;2. Not getting off your ass&lt;/h2&gt;
+&lt;h2 id=&quot;2-not-getting-off-your-ass&quot;&gt;2. Not getting off your ass&lt;/h2&gt;
 
-&lt;h2 id=&quot;starting-with-an-apology&quot;&gt;3. Starting with an apology&lt;/h2&gt;
+&lt;h2 id=&quot;3-starting-with-an-apology&quot;&gt;3. Starting with an apology&lt;/h2&gt;
 
-&lt;h2 id=&quot;not-setting-the-stage-properly&quot;&gt;4. Not setting the stage properly&lt;/h2&gt;
+&lt;h2 id=&quot;4-not-setting-the-stage-properly&quot;&gt;4. Not setting the stage properly&lt;/h2&gt;
 
-&lt;h2 id=&quot;giving-the-real-estate-tour&quot;&gt;5. Giving the real estate tour&lt;/h2&gt;
+&lt;h2 id=&quot;5-giving-the-real-estate-tour&quot;&gt;5. Giving the real estate tour&lt;/h2&gt;
 
-&lt;h2 id=&quot;taking-notes&quot;&gt;6. Taking notes&lt;/h2&gt;
+&lt;h2 id=&quot;6-taking-notes&quot;&gt;6. Taking notes&lt;/h2&gt;
 
-&lt;h2 id=&quot;reading-a-script&quot;&gt;7. Reading a script&lt;/h2&gt;
+&lt;h2 id=&quot;7-reading-a-script&quot;&gt;7. Reading a script&lt;/h2&gt;
 
-&lt;h2 id=&quot;getting-defensive&quot;&gt;8. Getting defensive&lt;/h2&gt;
+&lt;h2 id=&quot;8-getting-defensive&quot;&gt;8. Getting defensive&lt;/h2&gt;
 
-&lt;h2 id=&quot;mentioning-typefaces&quot;&gt;9. Mentioning typefaces&lt;/h2&gt;
+&lt;h2 id=&quot;9-mentioning-typefaces&quot;&gt;9. Mentioning typefaces&lt;/h2&gt;
 
-&lt;h2 id=&quot;talking-about-how-hard-you-worked&quot;&gt;10. Talking about how hard you worked&lt;/h2&gt;
+&lt;h2 id=&quot;10-talking-about-how-hard-you-worked&quot;&gt;10. Talking about how hard you worked&lt;/h2&gt;
 
-&lt;h2 id=&quot;reacting-to-questions-as-change-requests&quot;&gt;11. Reacting to questions as change requests&lt;/h2&gt;
+&lt;h2 id=&quot;11-reacting-to-questions-as-change-requests&quot;&gt;11. Reacting to questions as change requests&lt;/h2&gt;
 
-&lt;h2 id=&quot;not-guiding-the-feedback-loop&quot;&gt;12. Not guiding the feedback loop&lt;/h2&gt;
+&lt;h2 id=&quot;12-not-guiding-the-feedback-loop&quot;&gt;12. Not guiding the feedback loop&lt;/h2&gt;
 
-&lt;h2 id=&quot;asking-do-you-like-it&quot;&gt;13. Asking “Do you like it?”&lt;/h2&gt;
+&lt;h2 id=&quot;13-asking-do-you-like-it&quot;&gt;13. Asking “Do you like it?”&lt;/h2&gt;
 
 &lt;h4 id=&quot;and-one-weird-trick-that-you-wont-believe-works-every-time&quot;&gt;…and one weird trick that you won’t believe works every time.&lt;/h4&gt;
 
 &lt;p&gt;Learn the client’s goddamn name.&lt;/p&gt;
 </description>
         <pubDate>Fri, 06 Mar 2020 00:00:00 +0800</pubDate>
-        <link>/2020/03/06/13-ways-designers-screw-up-client-presentations/</link>
-        <guid isPermaLink="true">/2020/03/06/13-ways-designers-screw-up-client-presentations/</guid>
+        <link>http://localhost:4000/2020/03/06/13-ways-designers-screw-up-client-presentations/</link>
+        <guid isPermaLink="true">http://localhost:4000/2020/03/06/13-ways-designers-screw-up-client-presentations/</guid>
       </item>
     
   </channel>
