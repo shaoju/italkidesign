@@ -10,7 +10,7 @@ title:            italki Design
 email:            your-email@domain.com
 description:      Designing great products
 baseurl:          '' # The subpath of your site, e.g. /blog
-url:              'http://italki.design' # The base hostname & protocol for your site
+url:              'https://italki.design' # The base hostname & protocol for your site
 github_username:  italki
 twitter_username: italki
 
@@ -51,6 +51,6 @@ authors:
     bio:              Head of design @ italki
     gravatar:         /images/avatars/junjie.jpg
     email:            
-    website:          http://italki.design
+    website:          https://italki.design
     github_username:  
     twitter_username: 
