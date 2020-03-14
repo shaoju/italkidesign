@@ -39,11 +39,13 @@ The first impression wasn't great, for the following years, Figma was actively p
 
 It was at a very late stage until I realized, that the problem was in their sample file - which was using the pure black and white combination. Actually you can manually change the background yourself. 
 
+> Second lesson learnt: If your first impression wasn't good enough, it is hard to win the date back.
+
 ![figma sample](/images/posts/sketch2figma/2.png)
 
 Oh, did I even mention that they used the pure red as the accent color (on top of black)?
 
-> Second lesson learnt: If your first impression wasn't good enough, it is hard to win the date back.
+
 
 ## The turn over
 
@@ -89,8 +91,6 @@ Switching to a new platform is never an easy decision. We need to evaluate the m
 4. While migrating, would it slow down the overall product development process?
 
 The decision was made pretty quick, though. The team were able to get started with Figma basics pretty soon and we migrated a few key files into Figma - it wasn't perfect and lots of manual tweaks had to be done. Our strategy was to use the import as a basic reference, and rebuild everything while designing new features. It worked pretty well. 
-
-mbnb
 
 My supervisor, our co-founder and CPO, Yongyue Jiang, was also very supportive on this. He quickly setup the team account and paid the bills. We then quickly replaced the Sketch-to-Zeplin workflow with the all-in-one Figma solution. We did pay necessary communication cost along the way, but generally the transition was much smoother than expected.
 
