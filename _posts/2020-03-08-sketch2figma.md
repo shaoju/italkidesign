@@ -9,7 +9,7 @@ image: '/images/posts/sketch2figma/sketch2figma.jpg'
 
 
 
->We switched our design tool from Sketch to Figma in August, 2019. Looking back, there are a few thoughts that are worth sharing.
+>We switched our design tool from Sketch to Figma in August, 2019. Looking back, there are a few thoughts worth sharing.
 
 
 
@@ -31,7 +31,7 @@ And I was disappointed.
 
 Making an icon wasn't super easy in Sketch, but it was quite ok - not really a pain point. The new approach of Figma might have some technical advantages but I didn't even try to play with it. Because,  as a UI design tool, Figma's UI by that time, was terrible! 
 
-As a designer how has to look at the screen 10+ hours every day, I couldn't  look at he pure black background and the pure white icons and text labels. I bet there were already lots of nice features there but it lost me on the first sight.
+As a designer who has to look at the screen 10+ hours every day, I couldn't  look at he pure black background and the pure white icons and text labels. I bet there were already lots of nice features there but it lost me on the first sight.
 
 > Lesson learnt: People DO judge a book by its cover. Make your app prettier before rolling out PR articles.
 
@@ -78,7 +78,7 @@ Switching to a new platform is never an easy decision. We need to evaluate the m
 **The Pros were clear:**
 
 1. Everything in the cloud, no more downloading and syncing. And no more Mac only limitation. 
-2. Multiple designer can work on a same project simultaneously, with version control.
+2. Multiple designers can work on a same project simultaneously, with version control.
 3. Developers can inspect the design directly in the cloud, no more exporting and/or uploading. 
 4. Everyone can have a free account for viewing, inspecting and commenting the design, no more shared Zeplin account.
 5. Product managers and content writers can potentially work in the same environment. 
@@ -98,9 +98,9 @@ My supervisor, our co-founder and CPO, Yongyue Jiang, was also very supportive o
 
 We did met with a few issues during and after switching to Figma. One of the biggest concern was the lack of prototyping solution.
 
-One big miss in the italki design team was that we didn't make enough prototypes — As a matter of fact, we made zero prototypes. 
+A big miss in the italki design team was that we didn't make enough prototypes — As a matter of fact, we made zero prototypes. 
 
-Figma did support basic page-to-page transitions, and it actually worked much better than Sketch's built-in prototype tool, but still it was too limited. With Sketch we can have 3rd-party solutions like Flinto and Principle, but with Figma we are stuck there with the basic tools. 
+Figma did support basic page-to-page transitions, and it actually worked much better than Sketch's built-in prototype tool, but still it was too limited. With Sketch we can have 3rd-party solutions like Flinto and Principle, but with Figma we were stuck there with the basic tools. 
 
 Things started to get promising when Figma released the [Smart Animate](https://www.figma.com/blog/announcing-smart-animate-and-advanced-transitions/) feature, as well as an open plugin marketplace, which opened up a whole new world of possibilities. 
 
@@ -110,7 +110,7 @@ Till now we are still looking for a better prototyping solution on Figma, but a 
 
 People say that Figma is basically Sketch + inVision + Zeplin. I would say that it is much more than that. The collaboration capability had improved both our internal and external communications, the cloud-based solution allows it to be seamlessly integrated into other working platforms like Confluence and Jira. The growing plugin marketplace gives it infinite possibilities for the future. And yet we are only just using the basic design functions of it. 
 
-## Is Figma the King of the future
+## Is Figma the King of the future?
 
 I've given too much praise to Figma. So does it mean it is the King of the future?
 
