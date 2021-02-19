@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Good Design Portfolio is Good Story
+title: Good Portfolio is Good Story
 featured: true
 author: junjie
 tags: [portfolio, story-telling]
@@ -18,7 +18,7 @@ It certainly doesn't work that way. I feel it is necessary to write down some no
 
 ## Make it visually appealing
 
-Yes I know I wrote the title as “Good Design Portfolio is Good Story”. However, the recruiter and hiring manager usually have busy calendars. If your portfolio looks boring, you already missed the opportunity to get their attentions.
+Yes I know I wrote the title as “Good Portfolio is Good Story”. However, the recruiter and hiring manager usually have busy calendars. If your portfolio looks boring, you already missed the opportunity to get their attentions.
 
 > Design is not only about making a nice picture, but don’t forget that making a nice picture is still a big part of design.
 
