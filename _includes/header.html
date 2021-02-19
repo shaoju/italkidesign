@@ -15,6 +15,9 @@
       <div class="column medium-9 large-9">
         <nav class="site-header__navigation navigation">
           <ul class="list-bare">
+            <li>
+              <a class="page-link" target="_blank" href="/2020">2020 Recap</a>
+            </li>
             {% for page in site.pages %}
               {% unless page.name == '404.md' %}
                 {% if page.title %}
@@ -24,6 +27,7 @@
                 {% endif %}
               {% endunless %}
             {% endfor %}
+           
           </ul>
         </nav>
       </div>

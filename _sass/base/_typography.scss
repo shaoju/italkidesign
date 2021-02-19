@@ -20,14 +20,14 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: $font__serif;
+  font-family: $font__sanserif;
   font-size: $font-size__base;
-  font-weight: $font-weight__light;
-  margin: 0 0 $line-height__medium;
+  font-weight: $font-weight__bold;
+  margin: 32px 0 8px 0;
   line-height: initial;
 
   @media #{$medium-down} {
-    font-size: $font-size__medium;
+    font-size: $font-size__base;
   }
 
   a { text-decoration: none; }
@@ -46,7 +46,7 @@ h6 {
   h4,
   h5,
   h6 {
-    font-weight: $font-weight__bold;
+    font-weight: $font-weight__medium;
   }
 
   p,

@@ -5,15 +5,91 @@
     <description>Designing great products</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 11 Mar 2020 23:59:05 +0800</pubDate>
-    <lastBuildDate>Wed, 11 Mar 2020 23:59:05 +0800</lastBuildDate>
+    <pubDate>Fri, 19 Feb 2021 14:23:41 +0800</pubDate>
+    <lastBuildDate>Fri, 19 Feb 2021 14:23:41 +0800</lastBuildDate>
     <generator>Jekyll v3.6.3</generator>
 
     
       <item>
+        <title>Good Design Portfolio is Good Story</title>
+        <description>&lt;p&gt;While in the progress of hiring more talents to form up &lt;a href=&quot;https://www.figma.com/proto/0Oo3T11vTL8k63xTa82UfP/Team-Structure?node-id=0%3A49&amp;amp;viewport=165%2C533%2C0.08338088542222977&amp;amp;scaling=min-zoom&quot; target=&quot;_blank&quot;&gt;the new design structure&lt;/a&gt;, I have reviewed dozens of designer’s resumes and portfolios. I realized that most designers just put together all the works they’ve done before, try to make the portfolio as long as possible. And hope that it would sell themselves.&lt;/p&gt;
+
+&lt;p&gt;It certainly doesn’t work that way. I feel it is necessary to write down some notes about what I think is a good design portfolio.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;make-it-visually-appealing&quot;&gt;Make it visually appealing&lt;/h2&gt;
+
+&lt;p&gt;Yes I know I wrote the title as “Good Design Portfolio is Good Story”. However, the recruiter and hiring manager usually have busy calendars. If your portfolio looks boring, you already missed the opportunity to get their attentions.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Design is not only about making a nice picture, but don’t forget that making a nice picture is still a big part of design.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Plus there is the &lt;a href=&quot;https://lawsofux.com/aesthetic-usability-effect/&quot; target=&quot;_blank&quot;&gt;Aesthetics Usability Effect&lt;/a&gt;. A visually appealing portfolio definitely gives you higher chances to get to the next step.&lt;/p&gt;
+
+&lt;h2 id=&quot;craft-your-narrative&quot;&gt;Craft your narrative&lt;/h2&gt;
+
+&lt;p&gt;Once you’ve got the attention from the reader, it is all about telling a good story.&lt;/p&gt;
+
+&lt;p&gt;Your portfolio serves the purpose of telling the story of yourself. Make sure you craft your story with good narratives. Think about your portfolio as a product and the readers as users, think about how they would read your story and what might interest them.&lt;/p&gt;
+
+&lt;p&gt;Pay attention to the information architecture. Highlight the key points as necessary, so that your reader can quickly scan through the story before they decide to dive into the details.&lt;/p&gt;
+
+&lt;h2 id=&quot;tell-me-who-you-are&quot;&gt;Tell me who you are&lt;/h2&gt;
+
+&lt;p&gt;After going through the portfolio, your reader should be able to have a good picture of who you are and what can you do. What’s better is that you can specify it by yourself and support it with all the sample works in your portfolio.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=NP4lrVIpbvo&quot; target=&quot;_blank&quot;&gt;I’m Winston Wolf, I solve problems&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;write-down-the-problem-the-process-then-the-solution&quot;&gt;Write down the problem, the process, then the solution&lt;/h2&gt;
+
+&lt;p&gt;When writing about your projects, always make sure to phrase the problems and/or the goals to achieve.&lt;/p&gt;
+
+&lt;p&gt;Tell the story about the process of how you approached to solve the problems. Sometimes also write down the mistakes you made along the way - don’t be surprised, the ability to summarize and reflect from the mistakes you made, is always a plus.&lt;/p&gt;
+
+&lt;p&gt;If applicable, also list out the results and impacts of your solution. Your reader is probably not going to dig into all the details and evaluate how good your solution is, but as the creator of the design solution, you should always be proud of what you delivered (otherwise why bothering putting it in your portfolio?). Highlight the parts that you are mostly proud of, share the passion with the readers even if they might not really care about it that much.&lt;/p&gt;
+
+&lt;h2 id=&quot;specify-your-role&quot;&gt;Specify your role&lt;/h2&gt;
+
+&lt;p&gt;Take all the credits you deserved but don’t forget to mention your teammates. Often times we tend to highlight the projects that we worked on independently. It is true that these projects can highlight your professional skills. But in most cases it is as important for the hiring manager to understand how well you worked with your team.&lt;/p&gt;
+
+&lt;p&gt;You can highlight the moments when you showcased leadership, and be honest and clear with all the supports you got from your peers.&lt;/p&gt;
+
+&lt;h2 id=&quot;better-to-have-a-website&quot;&gt;Better to have a website&lt;/h2&gt;
+
+&lt;p&gt;Sending PDFs is okay, but as a digital designer, it is always a plus to have a dedicated website hosting all your works.&lt;/p&gt;
+
+&lt;p&gt;Just to make sure that you have optimized and tested the loading speed. Prepare backup solutions if necessary.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;dont-zip-a-folder-with-all-the-works-you-have-done-before&quot;&gt;Don’t zip a folder with all the works you have done before&lt;/h3&gt;
+&lt;p&gt;It is your job to highlight the best of yourself through the best of your works. Make it one single source of truth.&lt;/p&gt;
+
+&lt;h2 id=&quot;dont-send-dribbble-or-behance-links-only&quot;&gt;Don’t send Dribbble or Behance links only&lt;/h2&gt;
+&lt;p&gt;They could be good “read more” contents, but never use them as the portfolio itself.&lt;/p&gt;
+
+&lt;h2 id=&quot;dont-send-baiduyun-links&quot;&gt;Don’t send BaiduYun links&lt;/h2&gt;
+&lt;p&gt;Because it sucks.&lt;/p&gt;
+
+&lt;h2 id=&quot;dont-rar&quot;&gt;Don’t RAR&lt;/h2&gt;
+&lt;p&gt;It is year 2021, use zip if you have to compress file size.&lt;/p&gt;
+
+&lt;h2 id=&quot;dont-reveal-confidential-contents&quot;&gt;Don’t reveal confidential contents&lt;/h2&gt;
+&lt;p&gt;It is unprofessional.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 19 Feb 2021 00:00:00 +0800</pubDate>
+        <link>http://localhost:4000/2021/02/19/good-design-portfolio-is-good-story/</link>
+        <guid isPermaLink="true">http://localhost:4000/2021/02/19/good-design-portfolio-is-good-story/</guid>
+      </item>
+    
+      <item>
         <title>From Sketch to Figma</title>
         <description>&lt;blockquote&gt;
-  &lt;p&gt;We switched our design tool from Sketch to Figma in August, 2019. Looking back, there are a few thoughts that are worth sharing.&lt;/p&gt;
+  &lt;p&gt;We switched our design tool from Sketch to Figma in August, 2019. Looking back, there are a few thoughts worth sharing.&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;h2 id=&quot;sketch&quot;&gt;Sketch&lt;/h2&gt;
@@ -34,7 +110,7 @@
 
 &lt;p&gt;Making an icon wasn’t super easy in Sketch, but it was quite ok - not really a pain point. The new approach of Figma might have some technical advantages but I didn’t even try to play with it. Because,  as a UI design tool, Figma’s UI by that time, was terrible!&lt;/p&gt;
 
-&lt;p&gt;As a designer how has to look at the screen 10+ hours every day, I couldn’t  look at he pure black background and the pure white icons and text labels. I bet there were already lots of nice features there but it lost me on the first sight.&lt;/p&gt;
+&lt;p&gt;As a designer who has to look at the screen 10+ hours every day, I couldn’t  look at he pure black background and the pure white icons and text labels. I bet there were already lots of nice features there but it lost me on the first sight.&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;Lesson learnt: People DO judge a book by its cover. Make your app prettier before rolling out PR articles.&lt;/p&gt;
@@ -44,13 +120,13 @@
 
 &lt;p&gt;It was at a very late stage until I realized, that the problem was in their sample file - which was using the pure black and white combination. Actually you can manually change the background yourself.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/images/posts/sketch2figma/2.png&quot; alt=&quot;figma sample&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Oh, did I even mention that they used the pure red as the accent color (on top of black)?&lt;/p&gt;
-
 &lt;blockquote&gt;
   &lt;p&gt;Second lesson learnt: If your first impression wasn’t good enough, it is hard to win the date back.&lt;/p&gt;
 &lt;/blockquote&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/posts/sketch2figma/2.png&quot; alt=&quot;figma sample&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Oh, did I even mention that they used the pure red as the accent color (on top of black)?&lt;/p&gt;
 
 &lt;h2 id=&quot;the-turn-over&quot;&gt;The turn over&lt;/h2&gt;
 
@@ -86,7 +162,7 @@
 
 &lt;ol&gt;
   &lt;li&gt;Everything in the cloud, no more downloading and syncing. And no more Mac only limitation.&lt;/li&gt;
-  &lt;li&gt;Multiple designer can work on a same project simultaneously, with version control.&lt;/li&gt;
+  &lt;li&gt;Multiple designers can work on a same project simultaneously, with version control.&lt;/li&gt;
   &lt;li&gt;Developers can inspect the design directly in the cloud, no more exporting and/or uploading.&lt;/li&gt;
   &lt;li&gt;Everyone can have a free account for viewing, inspecting and commenting the design, no more shared Zeplin account.&lt;/li&gt;
   &lt;li&gt;Product managers and content writers can potentially work in the same environment.&lt;/li&gt;
@@ -103,17 +179,15 @@
 
 &lt;p&gt;The decision was made pretty quick, though. The team were able to get started with Figma basics pretty soon and we migrated a few key files into Figma - it wasn’t perfect and lots of manual tweaks had to be done. Our strategy was to use the import as a basic reference, and rebuild everything while designing new features. It worked pretty well.&lt;/p&gt;
 
-&lt;p&gt;mbnb&lt;/p&gt;
-
 &lt;p&gt;My supervisor, our co-founder and CPO, Yongyue Jiang, was also very supportive on this. He quickly setup the team account and paid the bills. We then quickly replaced the Sketch-to-Zeplin workflow with the all-in-one Figma solution. We did pay necessary communication cost along the way, but generally the transition was much smoother than expected.&lt;/p&gt;
 
 &lt;h3 id=&quot;the-limitations&quot;&gt;The Limitations&lt;/h3&gt;
 
 &lt;p&gt;We did met with a few issues during and after switching to Figma. One of the biggest concern was the lack of prototyping solution.&lt;/p&gt;
 
-&lt;p&gt;One big miss in the italki design team was that we didn’t make enough prototypes — As a matter of fact, we made zero prototypes.&lt;/p&gt;
+&lt;p&gt;A big miss in the italki design team was that we didn’t make enough prototypes — As a matter of fact, we made zero prototypes.&lt;/p&gt;
 
-&lt;p&gt;Figma did support basic page-to-page transitions, and it actually worked much better than Sketch’s built-in prototype tool, but still it was too limited. With Sketch we can have 3rd-party solutions like Flinto and Principle, but with Figma we are stuck there with the basic tools.&lt;/p&gt;
+&lt;p&gt;Figma did support basic page-to-page transitions, and it actually worked much better than Sketch’s built-in prototype tool, but still it was too limited. With Sketch we can have 3rd-party solutions like Flinto and Principle, but with Figma we were stuck there with the basic tools.&lt;/p&gt;
 
 &lt;p&gt;Things started to get promising when Figma released the &lt;a href=&quot;https://www.figma.com/blog/announcing-smart-animate-and-advanced-transitions/&quot;&gt;Smart Animate&lt;/a&gt; feature, as well as an open plugin marketplace, which opened up a whole new world of possibilities.&lt;/p&gt;
 
@@ -125,7 +199,7 @@
 
 &lt;p&gt;People say that Figma is basically Sketch + inVision + Zeplin. I would say that it is much more than that. The collaboration capability had improved both our internal and external communications, the cloud-based solution allows it to be seamlessly integrated into other working platforms like Confluence and Jira. The growing plugin marketplace gives it infinite possibilities for the future. And yet we are only just using the basic design functions of it.&lt;/p&gt;
 
-&lt;h2 id=&quot;is-figma-the-king-of-the-future&quot;&gt;Is Figma the King of the future&lt;/h2&gt;
+&lt;h2 id=&quot;is-figma-the-king-of-the-future&quot;&gt;Is Figma the King of the future?&lt;/h2&gt;
 
 &lt;p&gt;I’ve given too much praise to Figma. So does it mean it is the King of the future?&lt;/p&gt;
 
