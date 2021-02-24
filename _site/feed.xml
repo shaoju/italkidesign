@@ -5,13 +5,195 @@
     <description>Designing great products</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 19 Feb 2021 14:23:41 +0800</pubDate>
-    <lastBuildDate>Fri, 19 Feb 2021 14:23:41 +0800</lastBuildDate>
+    <pubDate>Wed, 24 Feb 2021 12:14:03 +0800</pubDate>
+    <lastBuildDate>Wed, 24 Feb 2021 12:14:03 +0800</lastBuildDate>
     <generator>Jekyll v3.6.3</generator>
 
     
       <item>
-        <title>Good Design Portfolio is Good Story</title>
+        <title>4 Stages of Product Design</title>
+        <description>&lt;h1 id=&quot;real-life-case&quot;&gt;Real life case&lt;/h1&gt;
+
+&lt;p&gt;So you’ve done some great design.&lt;/p&gt;
+
+&lt;p&gt;You organized a review meeting and invited a group of people.&lt;/p&gt;
+
+&lt;p&gt;You opened your Figma design and started to show your gorgeous design to the team.&lt;/p&gt;
+
+&lt;p&gt;Then you started to get subjective feedbacks like below&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/posts/4stages/issue.png&quot; alt=&quot;immg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;And you are stuck, not sure what to do next.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;what-is-the-problem&quot;&gt;What is the problem?&lt;/h1&gt;
+
+&lt;p&gt;The problem is that people tend to forget what the &lt;strong&gt;problem&lt;/strong&gt; is. Often times we are spending too much time on the solutions, and distracted ourselves from solving the real problem behind it.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;What is the problem are you trying to solve?&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;To my surprise, this was such a difficult question that very few people can really answer it properly.&lt;/p&gt;
+
+&lt;p&gt;In order to make things easier, I created some patterns that everyone can follow and thus sort out the right problems to solve.&lt;/p&gt;
+
+&lt;h1 id=&quot;starting-with-the-basics&quot;&gt;Starting with the basics&lt;/h1&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/posts/4stages/whywhowhat.png&quot; alt=&quot;immg&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;why&quot;&gt;WHY&lt;/h2&gt;
+
+&lt;p&gt;As a product designer, one thing that you shouldn’t forget to do is always asking WHY.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Why are we doing this?&lt;/li&gt;
+  &lt;li&gt;Why are we doing this now?&lt;/li&gt;
+  &lt;li&gt;Why this is so important?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;These are not scientific questions that take months to sort out, sometimes it is simply because of “my boss really wants this happen”, which happens in every company.&lt;/p&gt;
+
+&lt;p&gt;In the case that it is really because your boss required this, it is still your job to figure out why he wanted this. Stop complaining that “my boss doesn’t know how product design works”, try to figure out the real needs behind the surface.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Anything that helps you to do your job, is part of your job&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;It is important to understand the WHY correctly because all the following WHO, WHAT and HOW, would be depended on this.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/posts/4stages/why1.png&quot; alt=&quot;immg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;You can of cause have multiple reasons why do we want to do this. But it is also important that you have set the priority right and stay focus on the most important ones.&lt;/p&gt;
+
+&lt;p&gt;Most importantly, do NOT include a solution in your problem statement.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/posts/4stages/why2.png&quot; alt=&quot;immg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Now that you’ve got the WHY, it is time to figure out the WHO and WHAT&lt;/p&gt;
+
+&lt;h2 id=&quot;who&quot;&gt;WHO&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;WHO’s problem are you trying to solve?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Usually, WHO is (a certain group of) your users, sometimes it could also be an internal team, the whole company,  or yourself - don’t feel ashamed to put you or your team as the WHO, as long as it does make sense.&lt;/p&gt;
+
+&lt;p&gt;In this sample, since we are talking about how student who is trying to find a teacher through search, our major target audience would be first time users, as well as existing students who haven’t found a teacher they want to regularly take lessons with yet.&lt;/p&gt;
+
+&lt;p&gt;On the other hand, teachers may also have the demand to display their most valuable information in the search list, so that they can get more students.&lt;/p&gt;
+
+&lt;p&gt;Now do we want to address both student and teacher’s needs? Since in our WHY, it states that the students are having trouble finding the proper teacher, the student’s need should be our priority to solve. Teacher probably could also benefit from whatever our final solution is, but it is NOT our main task to do.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Hint: if you realize that on the teacher side there are really bigger issues to be solved, you should go back and update your WHY instead.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;So now we are clear that our WHO is &lt;strong&gt;students who are searching for a teacher&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;what&quot;&gt;WHAT&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;What goals do you want to achieve?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;There are two parts of this, one is linked to your WHO, as we’ve set our WHO as students, what do we want to enable them to do?&lt;/p&gt;
+
+&lt;p&gt;In this case, a possible WHAT is for students to be able to get necessary information while searching, so that they know which teachers to click to check their full profile.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/posts/4stages/whowhat.png&quot; alt=&quot;immg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Another part is about business goals, like traffics, conversion rates, purchasing numbers, etc. How much measurable improvements do we expect to get?&lt;/p&gt;
+
+&lt;p&gt;In this case, as the platform, we certainly wants students to book teachers the sooner the better. However for a long-term goal, we want students to find the RIGHT teachers for them, so that we would be happy about the learning experience and would come back later. So our goal here is not about getting the purchasing as soon as possible, instead it should be helping the students to get the right information so that they can find the right teacher as soon as possible.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/posts/4stages/whowhat2.png&quot; alt=&quot;immg&quot; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;product-design-starts-here&quot;&gt;Product design starts here&lt;/h1&gt;
+
+&lt;p&gt;Now that we figured out the basics, it is time to go to the design phase. I break it down into 4 different stages.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/posts/4stages/4stages.png&quot; alt=&quot;immg&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;1-user-goals&quot;&gt;1. User Goals&lt;/h2&gt;
+
+&lt;p&gt;I’m using the &lt;a href=&quot;https://www.ibm.com/design/thinking/page/toolkit/activity/writing-hills&quot;&gt;Hills concept from IBM Design Thinking&lt;/a&gt; framework to define the user goals. Writing hills sometimes could be tricky, but since we have already figured out the WHY WHO WHAT questions, we are almost there.&lt;/p&gt;
+
+&lt;p&gt;In the Hills format, we define the user goals in three aspects: WHO WHAT and WOW.&lt;/p&gt;
+
+&lt;p&gt;We already have the WHO and WHAT there and we can already start to work on the solution. Setting the WOW moment is harder, but having it there helps us to push ourselves to be more creative and innovative.&lt;/p&gt;
+
+&lt;p&gt;The WOW moment is basically your competitive differentiation, or how you would delight users during the experience.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/posts/4stages/hill.png&quot; alt=&quot;immg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;You can set multiple Hills per project, just make sure to set right priorities.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Cheat sheet: You can always come back and modify the hills (but not too much/often)&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;2-define-user-journey&quot;&gt;2. Define User Journey&lt;/h2&gt;
+
+&lt;p&gt;If it is an update of existing feature, usually we can have two user journey maps, the current journey and the tobe journey.&lt;/p&gt;
+
+&lt;p&gt;With that we can already start the necessary review/discussion, before any heavy works have even started — this is also surprisingly important because often times we realize something has to be changed but the development is almost done. We ended up either delay the release or live with the glitches.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/posts/4stages/journey.png&quot; alt=&quot;immg&quot; /&gt;
+&lt;img src=&quot;/images/posts/4stages/journey-tobe.png&quot; alt=&quot;immg&quot; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;3-flow-design&quot;&gt;3. Flow Design&lt;/h1&gt;
+
+&lt;p&gt;This step should be pretty straight forward. It is basically transforming the flowchart from the previous step into UX wireframes, add all necessary logics and interaction annotations.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/posts/4stages/flow.png&quot; alt=&quot;immg&quot; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;4-final-visual&quot;&gt;4. Final Visual&lt;/h1&gt;
+
+&lt;p&gt;The final visual is not a standalone image design. It embeds into the flow from the last step. We can leave unchanged pages in wireframe state, so that the audiences can focus on the most important ones.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/posts/4stages/visual.png&quot; alt=&quot;immg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;There are of course a lot more details to be covered in the final visual design. We need to make sure all the design system components are properly used, the frame/group structures are properly setup so that it can be consumed by the development team, etc. That could be another big topic talk about in another session. We are not going into all the details today.&lt;/p&gt;
+
+&lt;h1 id=&quot;now-are-we-achieving-our-goals&quot;&gt;Now, are we achieving our goals?&lt;/h1&gt;
+
+&lt;p&gt;What’s important during the whole design process, is for the team to come back to the Hills from time to time, to verify whether we are achieving our original goals.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/posts/4stages/hill.png&quot; alt=&quot;immg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Sometimes it could be difficult to validate the impact of the design, and we have to release it first and then get the data to support our hypothesis. It is also fine to make mistakes, just make sure that we all leant from the failure and grow up in the future.&lt;/p&gt;
+
+&lt;p&gt;Hint: in this real-life example, we made both UI and algorithm changes. I wasn’t totally convinced by the design solution at the beginning, but the AB test did show that the UI iteration made users request lessons and initiate booking faster, while there were no statistically significant changes caused by new algorithm.&lt;/p&gt;
+
+&lt;h1 id=&quot;hmm-do-we-have-to-go-through-all-the-trouble-every-time&quot;&gt;“Hmm.. do we have to go through all the trouble EVERY TIME?”&lt;/h1&gt;
+
+&lt;p&gt;It is ALWAYS a challenge when pushing things forward, to get people aligned on the process and follow with it.&lt;/p&gt;
+
+&lt;p&gt;The tip is to start things piece by piece, make small, but valuable samples for the team to start seeing the values.&lt;/p&gt;
+
+&lt;p&gt;Start with asking the WHY  WHO WHAT questions, because it is really the basic basics. Move on to the WOW moments whenever possible.&lt;/p&gt;
+
+&lt;p&gt;Call retrospectives to reflect what we have learnt from the past experience, adjust and iterate for future improvements.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/posts/4stages/progressive.png&quot; alt=&quot;immg&quot; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;aesthetic-empathetic-and-creative&quot;&gt;Aesthetic, Empathetic and Creative&lt;/h1&gt;
+
+&lt;p&gt;At italki, we believe that good design is Aesthetic, Empathetic and Creative. Our vision is to build beautiful, intuitive and exciting products.&lt;/p&gt;
+
+&lt;p&gt;In this practice, we are focusing more on the Empathetic part by better understanding the  problems and user goals to achieve, and push a little bit to the creative part by integrating the WOW moments.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/posts/4stages/principles.png&quot; alt=&quot;immg&quot; /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Wed, 24 Feb 2021 00:00:00 +0800</pubDate>
+        <link>http://localhost:4000/2021/02/24/4-stages-of-product-design/</link>
+        <guid isPermaLink="true">http://localhost:4000/2021/02/24/4-stages-of-product-design/</guid>
+      </item>
+    
+      <item>
+        <title>Good Portfolio is Good Story</title>
         <description>&lt;p&gt;While in the progress of hiring more talents to form up &lt;a href=&quot;https://www.figma.com/proto/0Oo3T11vTL8k63xTa82UfP/Team-Structure?node-id=0%3A49&amp;amp;viewport=165%2C533%2C0.08338088542222977&amp;amp;scaling=min-zoom&quot; target=&quot;_blank&quot;&gt;the new design structure&lt;/a&gt;, I have reviewed dozens of designer’s resumes and portfolios. I realized that most designers just put together all the works they’ve done before, try to make the portfolio as long as possible. And hope that it would sell themselves.&lt;/p&gt;
 
 &lt;p&gt;It certainly doesn’t work that way. I feel it is necessary to write down some notes about what I think is a good design portfolio.&lt;/p&gt;
@@ -20,21 +202,21 @@
 
 &lt;h2 id=&quot;make-it-visually-appealing&quot;&gt;Make it visually appealing&lt;/h2&gt;
 
-&lt;p&gt;Yes I know I wrote the title as “Good Design Portfolio is Good Story”. However, the recruiter and hiring manager usually have busy calendars. If your portfolio looks boring, you already missed the opportunity to get their attentions.&lt;/p&gt;
+&lt;p&gt;Yes I know I wrote the title as “Good Portfolio is Good Story”. However, the recruiter and hiring manager usually have busy calendars. If your portfolio looks boring, you already missed the opportunity to get their attentions.&lt;/p&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;Design is not only about making a nice picture, but don’t forget that making a nice picture is still a big part of design.&lt;/p&gt;
+  &lt;p&gt;Design is not only about making a nice picture, but making a nice picture is still a big part of design.&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;Plus there is the &lt;a href=&quot;https://lawsofux.com/aesthetic-usability-effect/&quot; target=&quot;_blank&quot;&gt;Aesthetics Usability Effect&lt;/a&gt;. A visually appealing portfolio definitely gives you higher chances to get to the next step.&lt;/p&gt;
+&lt;p&gt;Plus there is the &lt;a href=&quot;https://lawsofux.com/aesthetic-usability-effect/&quot; target=&quot;_blank&quot;&gt;Aesthetic Usability Effect&lt;/a&gt;. A visually appealing portfolio definitely gives you higher chances to get to the next step.&lt;/p&gt;
 
 &lt;h2 id=&quot;craft-your-narrative&quot;&gt;Craft your narrative&lt;/h2&gt;
 
 &lt;p&gt;Once you’ve got the attention from the reader, it is all about telling a good story.&lt;/p&gt;
 
-&lt;p&gt;Your portfolio serves the purpose of telling the story of yourself. Make sure you craft your story with good narratives. Think about your portfolio as a product and the readers as users, think about how they would read your story and what might interest them.&lt;/p&gt;
+&lt;p&gt;Your portfolio serves the purpose of telling the story of yourself. Make sure you craft your story with good narratives. Think about your portfolio as a product and the readers as users, think about how they would read your story and what might interests them.&lt;/p&gt;
 
-&lt;p&gt;Pay attention to the information architecture. Highlight the key points as necessary, so that your reader can quickly scan through the story before they decide to dive into the details.&lt;/p&gt;
+&lt;p&gt;Pay attention to the information architecture. Highlight the key points as necessary, so that your readers can quickly scan through the story before they decide to dive into the details.&lt;/p&gt;
 
 &lt;h2 id=&quot;tell-me-who-you-are&quot;&gt;Tell me who you are&lt;/h2&gt;
 
@@ -50,13 +232,16 @@
 
 &lt;p&gt;Tell the story about the process of how you approached to solve the problems. Sometimes also write down the mistakes you made along the way - don’t be surprised, the ability to summarize and reflect from the mistakes you made, is always a plus.&lt;/p&gt;
 
-&lt;p&gt;If applicable, also list out the results and impacts of your solution. Your reader is probably not going to dig into all the details and evaluate how good your solution is, but as the creator of the design solution, you should always be proud of what you delivered (otherwise why bothering putting it in your portfolio?). Highlight the parts that you are mostly proud of, share the passion with the readers even if they might not really care about it that much.&lt;/p&gt;
+&lt;p&gt;If applicable, also list out the results and impacts of your solution. Your reader is probably not going to dig into all the details and evaluate how good your solution is, but as the creator of the design solution, you should always be proud of what you delivered (otherwise why bother putting it in your portfolio?). Highlight the parts that you are mostly proud of, share the passion with your readers, even if they might not really care that much.&lt;/p&gt;
 
 &lt;h2 id=&quot;specify-your-role&quot;&gt;Specify your role&lt;/h2&gt;
 
 &lt;p&gt;Take all the credits you deserved but don’t forget to mention your teammates. Often times we tend to highlight the projects that we worked on independently. It is true that these projects can highlight your professional skills. But in most cases it is as important for the hiring manager to understand how well you worked with your team.&lt;/p&gt;
 
 &lt;p&gt;You can highlight the moments when you showcased leadership, and be honest and clear with all the supports you got from your peers.&lt;/p&gt;
+
+&lt;h2 id=&quot;use-professional-photograph&quot;&gt;Use professional photograph&lt;/h2&gt;
+&lt;p&gt;If you want to add a photo in your resume/portfolio, use a professional one. Don’t use cartoons (can’t believe I had to say this).&lt;/p&gt;
 
 &lt;h2 id=&quot;better-to-have-a-website&quot;&gt;Better to have a website&lt;/h2&gt;
 
@@ -82,8 +267,8 @@
 &lt;p&gt;It is unprofessional.&lt;/p&gt;
 </description>
         <pubDate>Fri, 19 Feb 2021 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/2021/02/19/good-design-portfolio-is-good-story/</link>
-        <guid isPermaLink="true">http://localhost:4000/2021/02/19/good-design-portfolio-is-good-story/</guid>
+        <link>http://localhost:4000/2021/02/19/good-portfolio-is-good-story/</link>
+        <guid isPermaLink="true">http://localhost:4000/2021/02/19/good-portfolio-is-good-story/</guid>
       </item>
     
       <item>

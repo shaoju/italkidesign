@@ -7,11 +7,11 @@
 
 # Site settings
 title:            italki Design
-email:            your-email@domain.com
+email:            design@italki.com
 description:      Designing great products
 baseurl:          '' # The subpath of your site, e.g. /blog
 url:              'https://italki.design' # The base hostname & protocol for your site
-github_username:  italki
+github_username:  
 twitter_username: italki
 
 markdown:  kramdown
