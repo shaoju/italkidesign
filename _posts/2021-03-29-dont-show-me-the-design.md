@@ -3,11 +3,11 @@ layout: post
 title: Don’t Show Me the Design
 featured: 
 author: junjie
-tags: [story-telling design]
+tags: [story-telling, design]
 image: '/2020/images/app.jpg'
 ---
 
-Wearing the title of the Head of Design, I kept saying to the team that:
+Wearing the title of Head of Design, I kept saying to the team that:
 
 > Don’t show me the design.
 
@@ -15,9 +15,9 @@ There have been too many cases that we have someone on the stage, talking about 
 
 Are we really aligned?
 
-As a presenter, are you really presenting the design in the proper way? If your audience is not  asking questions, are they really not having any questions, or they simply don’t know what questions to ask?  
+As a presenter, are you really presenting the design in the proper way? If your audience is not asking questions, are they really not having any questions, or they simply don’t know what questions to ask?  
 
-As an audience, have you really understood  the full picture? Are you really not having any more questions or simply you don’t want yourself look stupid by asking “stupid” questions?
+As an audience, have you really understood the full picture? Are you really not having any more questions or simply you don’t want yourself to look stupid by asking “stupid” questions?
 
 > Design doesn’t matter, solving the problems matters.
 
